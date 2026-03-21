@@ -11,8 +11,28 @@
     "Google OAuth and email magic-link authentication"
   ],
   "type": "web-app",
-  "tags": ["link-in-bio", "wine", "social-links", "profile", "admin-panel"],
-  "tech": ["Next.js", "React", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS", "shadcn/ui", "NextAuth", "UploadThing", "dnd-kit", "TanStack Table", "Nodemailer", "Zod"],
+  "tags": [
+    "link-in-bio",
+    "wine",
+    "social-links",
+    "profile",
+    "admin-panel"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth",
+    "UploadThing",
+    "dnd-kit",
+    "TanStack Table",
+    "Nodemailer",
+    "Zod"
+  ],
   "startDate": "2023-10-03",
   "endDate": null,
   "stats": {
@@ -27,5 +47,6 @@
   "repoUrl": "https://github.com/raphauy/tinta-link",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

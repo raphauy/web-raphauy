@@ -11,7 +11,13 @@
     "Admin panel with user management and content dashboard"
   ],
   "type": "web-app",
-  "tags": ["blog", "wine", "personal-website", "content-management", "ai-moderation"],
+  "tags": [
+    "blog",
+    "wine",
+    "personal-website",
+    "content-management",
+    "ai-moderation"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -47,5 +53,6 @@
   "repoUrl": "https://github.com/raphauy/gabizimmer.com",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Claude Code assistance"
+  "aiDetails": "Built with Claude Code assistance",
+  "repoPrivate": false
 }

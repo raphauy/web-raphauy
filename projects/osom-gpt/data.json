@@ -60,5 +60,6 @@
   "repoUrl": "https://github.com/raphauy/osom-gpt",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Developed with assistance from Cursor AI; the platform itself integrates OpenAI, Google Gemini, and Groq as LLM providers"
+  "aiDetails": "Developed with assistance from Cursor AI; the platform itself integrates OpenAI, Google Gemini, and Groq as LLM providers",
+  "repoPrivate": false
 }

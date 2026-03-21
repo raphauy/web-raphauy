@@ -11,7 +11,13 @@
     "Email templates with React Email"
   ],
   "type": "library",
-  "tags": ["starter-kit", "boilerplate", "multi-tenant", "authentication", "admin-panel"],
+  "tags": [
+    "starter-kit",
+    "boilerplate",
+    "multi-tenant",
+    "authentication",
+    "admin-panel"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -42,5 +48,6 @@
   "repoUrl": "https://github.com/raphauy/rc-starter",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

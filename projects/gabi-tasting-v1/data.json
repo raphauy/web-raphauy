@@ -11,8 +11,26 @@
     "CSV data import for bulk wine and tasting data loading"
   ],
   "type": "web-app",
-  "tags": ["wine", "tasting", "evaluation", "catalog", "data-management"],
-  "tech": ["Next.js", "React", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS", "shadcn/ui", "NextAuth", "TanStack Table", "Nodemailer", "Zod"],
+  "tags": [
+    "wine",
+    "tasting",
+    "evaluation",
+    "catalog",
+    "data-management"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth",
+    "TanStack Table",
+    "Nodemailer",
+    "Zod"
+  ],
   "startDate": "2024-01-20",
   "endDate": null,
   "stats": {
@@ -28,5 +46,6 @@
   "repoUrl": "https://github.com/raphauy/tasting",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

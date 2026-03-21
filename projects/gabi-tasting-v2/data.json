@@ -55,5 +55,6 @@
   "repoUrl": "https://github.com/raphauy/gabi-tasting-v2",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Claude Code used for development assistance; OpenAI GPT-4.1 integrated for AI-powered tasting note generation"
+  "aiDetails": "Claude Code used for development assistance; OpenAI GPT-4.1 integrated for AI-powered tasting note generation",
+  "repoPrivate": false
 }

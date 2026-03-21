@@ -11,7 +11,13 @@
     "End-to-end testing with Playwright"
   ],
   "type": "web-app",
-  "tags": ["ai-chatbot", "playground", "multi-model", "code-editor", "document-editing"],
+  "tags": [
+    "ai-chatbot",
+    "playground",
+    "multi-model",
+    "code-editor",
+    "document-editing"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -48,5 +54,6 @@
   "repoUrl": "https://github.com/raphauy/shock-ia-labs",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

@@ -62,5 +62,6 @@
   "repoUrl": "https://github.com/raphauy/bond",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Claude Code (CLAUDE.md present, multiple AI-related commits detected)"
+  "aiDetails": "Built with Claude Code (CLAUDE.md present, multiple AI-related commits detected)",
+  "repoPrivate": true
 }

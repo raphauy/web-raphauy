@@ -53,5 +53,6 @@
   "repoUrl": "https://github.com/raphauy/tinta-academy-v4",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Claude Code (CLAUDE.md present, feature commits suggest AI-assisted development)"
+  "aiDetails": "Built with Claude Code (CLAUDE.md present, feature commits suggest AI-assisted development)",
+  "repoPrivate": false
 }

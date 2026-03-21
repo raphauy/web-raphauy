@@ -11,7 +11,15 @@
     "Product catalog, sales tracking, and vendor management with embedding-based search"
   ],
   "type": "web-app",
-  "tags": ["chatbot", "rag", "multi-tenant", "ecommerce", "function-calling", "whatsapp", "embeddings"],
+  "tags": [
+    "chatbot",
+    "rag",
+    "multi-tenant",
+    "ecommerce",
+    "function-calling",
+    "whatsapp",
+    "embeddings"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -50,5 +58,6 @@
   "repoUrl": "https://github.com/raphauy/ecommerce-ia",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

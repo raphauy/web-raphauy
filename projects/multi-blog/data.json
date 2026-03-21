@@ -11,7 +11,13 @@
     "Rate limiting with Upstash Redis"
   ],
   "type": "web-app",
-  "tags": ["blogging", "multi-tenant", "custom-domains", "cms", "saas"],
+  "tags": [
+    "blogging",
+    "multi-tenant",
+    "custom-domains",
+    "cms",
+    "saas"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -43,5 +49,6 @@
   "repoUrl": "https://github.com/raphauy/multi-blog",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

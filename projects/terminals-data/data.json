@@ -11,7 +11,14 @@
     "Multi-line, multi-terminal architecture with seat availability tracking"
   ],
   "type": "web-app",
-  "tags": ["data-pipeline", "web-scraping", "analytics", "monitoring", "transportation", "telegram-bot"],
+  "tags": [
+    "data-pipeline",
+    "web-scraping",
+    "analytics",
+    "monitoring",
+    "transportation",
+    "telegram-bot"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -43,5 +50,6 @@
   "repoUrl": "https://github.com/raphauy/bus-data",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": true
 }

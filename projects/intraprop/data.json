@@ -11,7 +11,13 @@
     "Custom code generator for rapid CRUD scaffolding from Prisma models"
   ],
   "type": "web-app",
-  "tags": ["real-estate", "ai-matching", "property-management", "notifications", "data-import"],
+  "tags": [
+    "real-estate",
+    "ai-matching",
+    "property-management",
+    "notifications",
+    "data-import"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -46,5 +52,6 @@
   "repoUrl": "https://github.com/raphauy/intraprop",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

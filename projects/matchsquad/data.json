@@ -11,7 +11,14 @@
     "Built with Next.js 16 and React 19"
   ],
   "type": "web-app",
-  "tags": ["sports", "tournaments", "multi-tenant", "saas", "tennis", "padel"],
+  "tags": [
+    "sports",
+    "tournaments",
+    "multi-tenant",
+    "saas",
+    "tennis",
+    "padel"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -36,5 +43,6 @@
   "repoUrl": "https://github.com/raphauy/matchsquad",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Claude Code and Cursor AI assistance"
+  "aiDetails": "Built with Claude Code and Cursor AI assistance",
+  "repoPrivate": false
 }

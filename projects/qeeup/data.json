@@ -50,5 +50,6 @@
   "repoUrl": "https://github.com/raphauy/qeeup",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Claude Code (CLAUDE.md present, multiple commits co-authored by Claude)"
+  "aiDetails": "Built with Claude Code (CLAUDE.md present, multiple commits co-authored by Claude)",
+  "repoPrivate": true
 }

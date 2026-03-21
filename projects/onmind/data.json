@@ -55,5 +55,6 @@
   "repoUrl": null,
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Claude Code used throughout development for features, bug fixes, and architecture"
+  "aiDetails": "Claude Code used throughout development for features, bug fixes, and architecture",
+  "repoPrivate": true
 }

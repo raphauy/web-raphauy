@@ -45,6 +45,7 @@ export interface Project {
   stats: ProjectStats
   url: string | null
   repoUrl: string | null
+  repoPrivate: boolean
   screenshots: string[]
   builtWithAI: boolean
   aiDetails: string | null

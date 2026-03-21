@@ -10,8 +10,21 @@
     "Form validation with Zod and real-time feedback"
   ],
   "type": "library",
-  "tags": ["widget", "newsletter", "embeddable", "subscription-form"],
-  "tech": ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "React Hook Form", "Zod"],
+  "tags": [
+    "widget",
+    "newsletter",
+    "embeddable",
+    "subscription-form"
+  ],
+  "tech": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "React Hook Form",
+    "Zod"
+  ],
   "startDate": "2024-02-20",
   "endDate": null,
   "stats": {
@@ -27,5 +40,6 @@
   "repoUrl": "https://github.com/raphauy/subscriber",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

@@ -12,7 +12,15 @@
     "Cal.com booking integration and Google Sheets sync"
   ],
   "type": "web-app",
-  "tags": ["crm", "ai-chatbot", "whatsapp", "campaigns", "multi-tenant", "omnichannel", "voice"],
+  "tags": [
+    "crm",
+    "ai-chatbot",
+    "whatsapp",
+    "campaigns",
+    "multi-tenant",
+    "omnichannel",
+    "voice"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -57,5 +65,6 @@
   "repoUrl": "https://github.com/raphauy/shock-ia",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": true
 }

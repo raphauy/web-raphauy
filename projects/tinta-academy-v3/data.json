@@ -11,7 +11,14 @@
     "Clerk-based authentication with role-based access control"
   ],
   "type": "web-app",
-  "tags": ["education", "wine", "e-commerce", "enrollment", "payments", "admin-panel"],
+  "tags": [
+    "education",
+    "wine",
+    "e-commerce",
+    "enrollment",
+    "payments",
+    "admin-panel"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -43,5 +50,6 @@
   "repoUrl": "https://github.com/raphauy/tinta-academy-v3",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

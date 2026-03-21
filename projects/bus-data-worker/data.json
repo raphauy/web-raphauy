@@ -40,5 +40,6 @@
   "repoUrl": null,
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": true
 }

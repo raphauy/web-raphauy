@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowLeft, ArrowRight, ExternalLink, Github } from "lucide-react"
+import { ArrowLeft, ArrowRight, ExternalLink, Github, Lock } from "lucide-react"
 import { Project } from "@/lib/types"
 import { extractAITool } from "@/lib/utils"
 import { TechBadge } from "./tech-badge"
@@ -178,7 +178,7 @@ export function ProjectDetail({
                 Visit site
               </a>
             )}
-            {project.repoUrl && (
+            {project.repoUrl && !project.repoPrivate && (
               <a
                 href={project.repoUrl}
                 target="_blank"
@@ -188,6 +188,12 @@ export function ProjectDetail({
                 <Github className="h-4 w-4" />
                 View source
               </a>
+            )}
+            {project.repoPrivate && (
+              <span className="inline-flex items-center gap-1.5 text-sm text-muted-foreground">
+                <Lock className="h-3.5 w-3.5" />
+                Private repository
+              </span>
             )}
           </section>
         </div>

@@ -11,7 +11,12 @@
     "Built with Next.js 15 and React 19"
   ],
   "type": "web-app",
-  "tags": ["notes", "ai-assistant", "real-time", "productivity"],
+  "tags": [
+    "notes",
+    "ai-assistant",
+    "real-time",
+    "productivity"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -38,5 +43,6 @@
   "repoUrl": "https://github.com/raphauy/notes-app",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

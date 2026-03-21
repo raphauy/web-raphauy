@@ -11,7 +11,13 @@
     "API integration to feed scraped data into analytics dashboard"
   ],
   "type": "cli",
-  "tags": ["web-scraping", "data-pipeline", "automation", "worker-threads", "headless-browser"],
+  "tags": [
+    "web-scraping",
+    "data-pipeline",
+    "automation",
+    "worker-threads",
+    "headless-browser"
+  ],
   "tech": [
     "TypeScript",
     "Puppeteer",
@@ -34,5 +40,6 @@
   "repoUrl": "https://github.com/raphauy/updater-bd",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": true
 }

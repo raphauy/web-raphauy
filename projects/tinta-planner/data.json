@@ -11,7 +11,14 @@
     "Image management with Cloudinary integration and carousel support"
   ],
   "type": "web-app",
-  "tags": ["social-media", "content-management", "marketing", "multi-tenant", "newsletter", "calendar"],
+  "tags": [
+    "social-media",
+    "content-management",
+    "marketing",
+    "multi-tenant",
+    "newsletter",
+    "calendar"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -48,5 +55,6 @@
   "repoUrl": "https://github.com/raphauy/tinta-planner",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

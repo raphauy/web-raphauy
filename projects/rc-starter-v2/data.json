@@ -11,7 +11,14 @@
     "Clean RSC architecture with layered service pattern"
   ],
   "type": "library",
-  "tags": ["starter-kit", "boilerplate", "multi-tenant", "saas", "authentication", "admin-panel"],
+  "tags": [
+    "starter-kit",
+    "boilerplate",
+    "multi-tenant",
+    "saas",
+    "authentication",
+    "admin-panel"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -41,5 +48,6 @@
   "repoUrl": "https://github.com/raphauy/rc-starter-v2",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Claude Code assistance"
+  "aiDetails": "Built with Claude Code assistance",
+  "repoPrivate": false
 }

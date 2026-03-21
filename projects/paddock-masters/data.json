@@ -11,7 +11,14 @@
     "Drag-and-drop question management with dnd-kit"
   ],
   "type": "web-app",
-  "tags": ["formula-1", "predictions", "game", "multi-tenant", "collaborative", "sports"],
+  "tags": [
+    "formula-1",
+    "predictions",
+    "game",
+    "multi-tenant",
+    "collaborative",
+    "sports"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -41,5 +48,6 @@
   "repoUrl": "https://github.com/raphauy/f1-prediction",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Claude Code assistance"
+  "aiDetails": "Built with Claude Code assistance",
+  "repoPrivate": false
 }

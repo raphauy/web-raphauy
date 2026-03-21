@@ -11,7 +11,12 @@
     "Dark mode support with theme toggle"
   ],
   "type": "web-app",
-  "tags": ["blogging", "real-time", "rich-text-editor", "content-management"],
+  "tags": [
+    "blogging",
+    "real-time",
+    "rich-text-editor",
+    "content-management"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -36,5 +41,6 @@
   "repoUrl": "https://github.com/raphauy/tinta-blog",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

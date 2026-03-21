@@ -10,8 +10,22 @@
     "Dark mode support with next-themes"
   ],
   "type": "landing",
-  "tags": ["wine", "tourism", "directory", "showcase", "carmelo", "uruguay"],
-  "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "react-magic-motion"],
+  "tags": [
+    "wine",
+    "tourism",
+    "directory",
+    "showcase",
+    "carmelo",
+    "uruguay"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "react-magic-motion"
+  ],
   "startDate": "2023-10-28",
   "endDate": null,
   "stats": {
@@ -25,5 +39,6 @@
   "repoUrl": "https://github.com/raphauy/bodegas-carmelo",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

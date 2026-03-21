@@ -48,5 +48,6 @@
   "repoUrl": "https://github.com/raphauy/tinta-payload",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Cursor (.cursorrules present) and Claude Code (CLAUDE.md present)"
+  "aiDetails": "Built with Cursor (.cursorrules present) and Claude Code (CLAUDE.md present)",
+  "repoPrivate": false
 }

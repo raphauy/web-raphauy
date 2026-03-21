@@ -59,5 +59,6 @@
   "repoUrl": "https://github.com/raphauy/agency-planner",
   "screenshots": [],
   "builtWithAI": true,
-  "aiDetails": "Built with Claude Code (CLAUDE.md present), uses OpenAI GPT-4o for content generation"
+  "aiDetails": "Built with Claude Code (CLAUDE.md present), uses OpenAI GPT-4o for content generation",
+  "repoPrivate": true
 }

@@ -11,8 +11,31 @@
     "Severity scoring and demographic data collection with visual analytics"
   ],
   "type": "web-app",
-  "tags": ["surveys", "civic-tech", "conversational-ai", "community-diagnostics", "multi-tenant", "chatbot"],
-  "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Prisma", "PostgreSQL", "pgvector", "OpenAI", "LangChain", "NextAuth", "WhatsApp", "Recharts", "Nodemailer", "Zod"],
+  "tags": [
+    "surveys",
+    "civic-tech",
+    "conversational-ai",
+    "community-diagnostics",
+    "multi-tenant",
+    "chatbot"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Prisma",
+    "PostgreSQL",
+    "pgvector",
+    "OpenAI",
+    "LangChain",
+    "NextAuth",
+    "WhatsApp",
+    "Recharts",
+    "Nodemailer",
+    "Zod"
+  ],
   "startDate": "2024-01-11",
   "endDate": null,
   "stats": {
@@ -30,5 +53,6 @@
   "repoUrl": "https://github.com/raphauy/osom-survey",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

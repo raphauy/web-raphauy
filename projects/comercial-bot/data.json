@@ -11,7 +11,14 @@
     "Multi-provider AI support: OpenAI, Groq, and Google Generative AI"
   ],
   "type": "web-app",
-  "tags": ["sales", "chatbot", "lead-management", "e-commerce", "multi-tenant", "crm"],
+  "tags": [
+    "sales",
+    "chatbot",
+    "lead-management",
+    "e-commerce",
+    "multi-tenant",
+    "crm"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -48,5 +55,6 @@
   "repoUrl": "https://github.com/raphauy/comercial-bot",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

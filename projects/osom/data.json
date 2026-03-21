@@ -11,7 +11,14 @@
     "Token usage tracking and billing per client"
   ],
   "type": "web-app",
-  "tags": ["real-estate", "chatbot", "rag", "embeddings", "multi-tenant", "whatsapp"],
+  "tags": [
+    "real-estate",
+    "chatbot",
+    "rag",
+    "embeddings",
+    "multi-tenant",
+    "whatsapp"
+  ],
   "tech": [
     "Next.js",
     "React",
@@ -46,5 +53,6 @@
   "repoUrl": "https://github.com/raphauy/osom",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }

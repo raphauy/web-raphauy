@@ -39,5 +39,6 @@
   "repoUrl": "https://github.com/raphauy/seprivee",
   "screenshots": [],
   "builtWithAI": false,
-  "aiDetails": null
+  "aiDetails": null,
+  "repoPrivate": false
 }
