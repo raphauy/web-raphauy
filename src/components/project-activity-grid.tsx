@@ -197,12 +197,12 @@ export function ProjectActivityGrid({ projects, commitsByDay }: Props) {
       <div className="flex-1 min-w-0">
         {/* Title */}
         <p className="mb-3 text-sm text-muted-foreground">
-          {totalProjects} project{totalProjects !== 1 ? "s" : ""}
+          <span className="font-semibold text-foreground">{totalProjects.toLocaleString("es-UY")}</span> project{totalProjects !== 1 ? "s" : ""}
           {totalCommits > 0 && (
-            <>, {totalCommits.toLocaleString()} commit{totalCommits !== 1 ? "s" : ""}</>
+            <>, <span className="font-semibold text-foreground">{totalCommits.toLocaleString("es-UY")}</span> commit{totalCommits !== 1 ? "s" : ""}</>
           )}
           {totalLoc > 0 && (
-            <>, {totalLoc.toLocaleString()} loc</>
+            <>, <span className="font-semibold text-foreground">{totalLoc.toLocaleString("es-UY")}</span> loc</>
           )}
           {" "}in the last 3 years
         </p>
