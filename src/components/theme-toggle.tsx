@@ -4,15 +4,18 @@ import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import { Sun, Moon } from "lucide-react"
 
+function getSystemDark() {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+}
+
 export function ThemeToggle() {
-  const [dark, setDark] = useState(true)
+  const [dark, setDark] = useState(false)
 
   useEffect(() => {
     const stored = localStorage.getItem("theme")
-    if (stored === "light") {
-      document.documentElement.classList.remove("dark")
-      setDark(false)
-    }
+    const isDark = stored ? stored === "dark" : getSystemDark()
+    document.documentElement.classList.toggle("dark", isDark)
+    setDark(isDark)
   }, [])
 
   function toggle() {
