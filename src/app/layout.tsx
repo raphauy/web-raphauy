@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/og-image.png",
-        width: 1100,
-        height: 1042,
+        width: 971,
+        height: 384,
         alt: "Raphael Carvalho — Software Engineer Portfolio",
       },
     ],
