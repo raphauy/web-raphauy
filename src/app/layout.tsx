@@ -20,15 +20,50 @@ const alfaSlabOne = Alfa_Slab_One({
 })
 
 export const metadata: Metadata = {
-  title: "Raphael — Freelance Software Engineer",
+  title: {
+    default: "Raphael Carvalho — Software Engineer",
+    template: "%s — Raphael Carvalho",
+  },
   description:
-    "Portfolio de Raphael, freelance software engineer. 30+ proyectos de software construidos con tecnologías modernas.",
+    "Portfolio of Raphael Carvalho, software engineer. Co-founder & CTO at Bond and OnMind. 45+ projects built with modern technologies like Next.js, React, TypeScript, and AI.",
   metadataBase: new URL("https://raphauy.dev"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Raphael — Freelance Software Engineer",
+    title: "Raphael Carvalho — Software Engineer",
     description:
-      "Portfolio de Raphael, freelance software engineer. 30+ proyectos de software construidos con tecnologías modernas.",
+      "Portfolio of Raphael Carvalho, software engineer. Co-founder & CTO at Bond and OnMind. 45+ projects built with modern technologies.",
+    url: "https://raphauy.dev",
+    siteName: "raphauy.dev",
+    locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1100,
+        height: 1042,
+        alt: "Raphael Carvalho — Software Engineer Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Raphael Carvalho — Software Engineer",
+    description:
+      "Portfolio of Raphael Carvalho, software engineer. 45+ projects built with modern technologies.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 }
 

@@ -192,7 +192,7 @@ export function ProjectActivityGrid({ projects, commitsByDay }: Props) {
   const gridWidth = weeks.length * CELL_STEP - CELL_GAP
 
   return (
-    <div className="flex gap-4">
+    <div className="flex flex-col gap-4 sm:flex-row">
       {/* Main grid area */}
       <div className="flex-1 min-w-0">
         {/* Title */}
@@ -207,7 +207,7 @@ export function ProjectActivityGrid({ projects, commitsByDay }: Props) {
           {" "}in the last 3 years
         </p>
 
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto scrollbar-thin">
           <div className="inline-flex">
             {/* Day labels column */}
             <div
@@ -365,7 +365,7 @@ export function ProjectActivityGrid({ projects, commitsByDay }: Props) {
       </div>
 
       {/* Year selector */}
-      <div className="flex flex-col gap-1 shrink-0">
+      <div className="flex flex-row gap-1 sm:flex-col shrink-0 overflow-x-auto">
         <button
           onClick={() => setSelectedYear(null)}
           className={cn(
