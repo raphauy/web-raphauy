@@ -1,0 +1,64 @@
+{
+  "slug": "osom-gpt",
+  "name": "OsomGPT",
+  "tagline": "Multi-tenant AI platform with function calling and document embeddings",
+  "description": "A multi-tenant AI/LLM platform that provides GPT-powered services to multiple clients with isolated data and custom configurations. Features multi-provider support (OpenAI, Google Gemini, Groq), document embeddings with pgvector for semantic search, function calling, vision analysis, audio transcription, and a token-based billing system with usage analytics.",
+  "highlights": [
+    "Multi-tenant architecture with client-scoped API endpoints and data isolation",
+    "Multi-provider LLM support: OpenAI, Google Gemini, and Groq",
+    "RAG with pgvector document embeddings for semantic search",
+    "Function calling, vision analysis, and audio transcription capabilities",
+    "Token-based billing system with analytics dashboards (Recharts)",
+    "Webhook notification system for external integrations"
+  ],
+  "type": "web-app",
+  "tags": [
+    "ai-platform",
+    "multi-tenant",
+    "saas",
+    "rag",
+    "chatbot",
+    "embeddings",
+    "analytics"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "pgvector",
+    "OpenAI",
+    "Google Gemini",
+    "Groq",
+    "LangChain",
+    "Vercel AI SDK",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth.js",
+    "TanStack Table",
+    "Recharts",
+    "Tiptap",
+    "Nodemailer",
+    "Zod",
+    "Framer Motion"
+  ],
+  "startDate": "2024-02-16",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 30900,
+      "SQL": 486,
+      "JavaScript": 101,
+      "HTML": 77,
+      "CSS": 74,
+      "SVG": 54
+    },
+    "totalLines": 31692
+  },
+  "url": "https://app.osomgpt.com",
+  "repoUrl": "https://github.com/raphauy/osom-gpt",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Developed with assistance from Cursor AI; the platform itself integrates OpenAI, Google Gemini, and Groq as LLM providers"
+}

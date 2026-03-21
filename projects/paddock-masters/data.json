@@ -1,0 +1,45 @@
+{
+  "slug": "paddock-masters",
+  "name": "Paddock Masters",
+  "tagline": "Collaborative F1 race prediction game with scoring and standings",
+  "description": "A multi-tenant prediction game platform for Formula 1 races. Users create workspaces, invite friends, and compete by predicting race outcomes through customizable questions per Grand Prix. Features automated scoring, season standings, email notifications, and a complete admin panel for managing seasons, races, and results.",
+  "highlights": [
+    "Multi-tenant workspace system with invitations and role-based access",
+    "Customizable prediction questions per Grand Prix with template system",
+    "Automated scoring engine with season standings and leaderboards",
+    "OTP email authentication with NextAuth.js v5",
+    "Drag-and-drop question management with dnd-kit"
+  ],
+  "type": "web-app",
+  "tags": ["formula-1", "predictions", "game", "multi-tenant", "collaborative", "sports"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth.js",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Resend",
+    "React Email",
+    "Vercel Blob",
+    "dnd-kit",
+    "Zod",
+    "Vercel"
+  ],
+  "startDate": "2025-07-14",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 26130,
+      "CSS": 146
+    },
+    "totalLines": 26276
+  },
+  "url": "https://paddock-masters.raphauy.dev/",
+  "repoUrl": "https://github.com/raphauy/f1-prediction",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code assistance"
+}

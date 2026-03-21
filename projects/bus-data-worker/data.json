@@ -1,0 +1,44 @@
+{
+  "slug": "bus-data-worker",
+  "name": "Schedule Scraper Worker",
+  "tagline": "Automated web scraper that collects real-time transport schedule data",
+  "description": "A headless worker service that continuously scrapes transport schedule data from third-party websites using Puppeteer. Runs in configurable cycles with proxy rotation, posts collected data to a central API, and supports seat availability tracking and capacity change detection. Deployed as a Docker container with automatic restarts.",
+  "highlights": [
+    "Headless browser automation with Puppeteer for dynamic page scraping",
+    "Configurable scraping cycles with proxy rotation support",
+    "Real-time seat availability and capacity change detection",
+    "Remote configuration via API-driven variable definitions",
+    "Dockerized deployment with automatic restart and memory management"
+  ],
+  "type": "cli",
+  "tags": [
+    "web-scraping",
+    "automation",
+    "data-collection",
+    "headless-browser",
+    "worker-service",
+    "real-time"
+  ],
+  "tech": [
+    "Node.js",
+    "TypeScript",
+    "Puppeteer",
+    "Cheerio",
+    "Axios",
+    "Docker"
+  ],
+  "startDate": "2025-03-05",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 1264,
+      "HTML": 7348
+    },
+    "totalLines": 8612
+  },
+  "url": null,
+  "repoUrl": null,
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

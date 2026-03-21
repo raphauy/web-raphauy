@@ -1,0 +1,40 @@
+{
+  "slug": "tinta-blog",
+  "name": "Tinta Blog",
+  "tagline": "Real-time blogging platform with rich-text editor and authentication",
+  "description": "A modern blogging platform built with real-time data powered by Convex. Features a rich-text editor (Novel) with slash commands, image uploads, code highlighting, and user authentication via Clerk. Supports post creation, reading, and likes with instant updates.",
+  "highlights": [
+    "Rich-text editor with slash commands, image uploads, and code syntax highlighting",
+    "Real-time data sync with Convex backend",
+    "User authentication and authorization with Clerk",
+    "Webhook integration for user sync between Clerk and Convex",
+    "Dark mode support with theme toggle"
+  ],
+  "type": "web-app",
+  "tags": ["blogging", "real-time", "rich-text-editor", "content-management"],
+  "tech": [
+    "Next.js",
+    "React",
+    "Convex",
+    "Clerk",
+    "Novel",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Svix",
+    "Zod"
+  ],
+  "startDate": "2024-10-31",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 3062,
+      "CSS": 286
+    },
+    "totalLines": 3348
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/tinta-blog",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

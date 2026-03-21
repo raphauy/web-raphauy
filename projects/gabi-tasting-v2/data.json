@@ -1,0 +1,59 @@
+{
+  "slug": "gabi-tasting-v2",
+  "name": "Gabi Tasting",
+  "tagline": "Wine tasting management platform for professional wine critics",
+  "description": "A comprehensive wine tasting management system built for wine critics to organize tastings, manage wineries, review wines, and generate AI-powered tasting notes. Features multi-tenancy with role-based access, OTP authentication, drag-and-drop scheduling, and rich analytics dashboards.",
+  "highlights": [
+    "AI-powered tasting note generation using GPT-4.1 with customizable prompts per critic",
+    "Multi-tenant architecture supporting wine critics, wineries, and tasters with role-based access",
+    "OTP-based passwordless authentication with session tracking",
+    "Drag-and-drop tasting day scheduling with ordered winery assignments",
+    "Data analytics dashboards with charts and Excel export capabilities"
+  ],
+  "type": "web-app",
+  "tags": [
+    "wine",
+    "tasting",
+    "multi-tenant",
+    "saas",
+    "analytics",
+    "drag-and-drop"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "Neon",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Auth.js",
+    "OpenAI",
+    "Vercel AI SDK",
+    "Resend",
+    "UploadThing",
+    "TipTap",
+    "TanStack Table",
+    "Recharts",
+    "React Email",
+    "Zod"
+  ],
+  "startDate": "2024-12-27",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 14611,
+      "YAML": 6951,
+      "Markdown": 152,
+      "JSON": 144,
+      "CSS": 85
+    },
+    "totalLines": 21973
+  },
+  "url": "https://tasting.gabizimmer.com/",
+  "repoUrl": "https://github.com/raphauy/gabi-tasting-v2",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Claude Code used for development assistance; OpenAI GPT-4.1 integrated for AI-powered tasting note generation"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "jomi",
+  "name": "JOMI",
+  "tagline": "Product catalog and brand showcase for an industrial supplies company",
+  "description": "A web application built for JOMI, an industrial supplies company, featuring a product catalog organized by categories and business sectors (rubros). Includes a contact form with email notifications, brand showcase, admin panel for content management, and image uploads via Cloudinary.",
+  "highlights": [
+    "Product catalog with categories, sectors, and brand organization",
+    "Admin panel with CRUD for products, categories, sectors, and brands",
+    "Contact form with email notifications via Nodemailer",
+    "Image management with Cloudinary integration",
+    "Rich text editor with Novel (Tiptap-based)"
+  ],
+  "type": "web-app",
+  "tags": [
+    "catalog",
+    "industrial-supplies",
+    "e-commerce",
+    "admin-panel",
+    "contact-form"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth.js",
+    "Cloudinary",
+    "OpenAI",
+    "Nodemailer",
+    "TanStack Table",
+    "Tiptap",
+    "Framer Motion",
+    "Zod",
+    "Vercel"
+  ],
+  "startDate": "2023-10-03",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 9380,
+      "CSS": 67,
+      "SQL": 107
+    },
+    "totalLines": 9554
+  },
+  "url": "https://www.jomirepresentaciones.com.uy",
+  "repoUrl": "https://github.com/raphauy/jomi",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

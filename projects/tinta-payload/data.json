@@ -1,0 +1,52 @@
+{
+  "slug": "tinta-payload",
+  "name": "Tinta Wine",
+  "tagline": "Multilingual wine culture website with headless CMS and SEO",
+  "description": "Tinta Wine is a multilingual website for a wine culture business offering agency services, academy courses, software solutions, and editorial content. Built with PayloadCMS as a headless CMS, it features a block-based content editor, dynamic forms, SEO optimization, and a blog with versioning and live preview.",
+  "highlights": [
+    "Headless CMS with PayloadCMS 3.7 and Lexical rich text editor",
+    "Multilingual support (Spanish/English) with next-international",
+    "Block-based page builder with 8+ reusable content blocks",
+    "SEO-optimized with auto-generated sitemaps and meta management",
+    "Blog with versioning, drafts, live preview, and multi-author support"
+  ],
+  "type": "web-app",
+  "tags": [
+    "cms",
+    "wine",
+    "multilingual",
+    "blog",
+    "seo",
+    "content-management"
+  ],
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "PayloadCMS",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Vercel Blob",
+    "Resend",
+    "Lexical",
+    "GraphQL",
+    "next-international",
+    "Zod"
+  ],
+  "startDate": "2024-12-14",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 12026,
+      "JavaScript": 304,
+      "CSS": 78
+    },
+    "totalLines": 12408
+  },
+  "url": "https://tinta.wine",
+  "repoUrl": "https://github.com/raphauy/tinta-payload",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Cursor (.cursorrules present) and Claude Code (CLAUDE.md present)"
+}

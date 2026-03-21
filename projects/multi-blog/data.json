@@ -1,0 +1,47 @@
+{
+  "slug": "multi-blog",
+  "name": "Multi Blog",
+  "tagline": "Multi-tenant blogging platform with custom domains and AI editor",
+  "description": "A multi-tenant blogging platform that allows users to create sites with custom domains and subdomains. Features an AI-powered WYSIWYG editor (Novel), image uploads via Vercel Blob, rate limiting with Upstash, and ISR for fast cached content delivery. Built on the Vercel Platforms Starter Kit architecture.",
+  "highlights": [
+    "Multi-tenant architecture with custom domain and subdomain support via Vercel Domains API",
+    "AI-powered Notion-style rich-text editor with Novel",
+    "Image uploads with drag & drop backed by Vercel Blob",
+    "Edge-cached blog posts with ISR and on-demand revalidation",
+    "Rate limiting with Upstash Redis"
+  ],
+  "type": "web-app",
+  "tags": ["blogging", "multi-tenant", "custom-domains", "cms", "saas"],
+  "tech": [
+    "Next.js",
+    "React",
+    "Drizzle ORM",
+    "Vercel Postgres",
+    "Vercel Blob",
+    "Vercel KV",
+    "Upstash",
+    "OpenAI",
+    "Vercel AI SDK",
+    "Novel",
+    "NextAuth.js",
+    "Tailwind CSS",
+    "Tremor",
+    "Framer Motion",
+    "MDX"
+  ],
+  "startDate": "2024-08-10",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 5399,
+      "JavaScript": 216,
+      "CSS": 211
+    },
+    "totalLines": 5826
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/multi-blog",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "onmind",
+  "name": "OnMind",
+  "tagline": "Multi-tenant WhatsApp communication management and contact tracking",
+  "description": "OnMind is a multi-tenant platform that helps businesses manage WhatsApp communications, schedule messages, and track contacts at scale. It features bulk campaign sending, conversation management with real-time updates, contact import/export, automated message scheduling, and a full template system for streamlined client outreach.",
+  "highlights": [
+    "Multi-tenant architecture with role-based access control",
+    "WhatsApp integration via Evolution API for messaging and campaigns",
+    "Bulk campaign system with audience targeting and scheduling",
+    "Real-time conversation updates via Centrifugo WebSockets",
+    "Scheduled message delivery powered by QStash",
+    "Contact management with import, categories, tags, and special dates"
+  ],
+  "type": "web-app",
+  "tags": [
+    "saas",
+    "multi-tenant",
+    "whatsapp",
+    "crm",
+    "messaging",
+    "campaigns",
+    "real-time"
+  ],
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "Neon",
+    "NextAuth",
+    "Evolution API",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "QStash",
+    "Centrifugo",
+    "Resend",
+    "Vercel Blob",
+    "React Hook Form",
+    "Zod",
+    "TanStack Table"
+  ],
+  "startDate": "2025-12-06",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 77233,
+      "SQL": 884,
+      "JSON": 231,
+      "CSS": 178,
+      "Python": 64
+    },
+    "totalLines": 78590
+  },
+  "url": "https://www.onmindcrm.com",
+  "repoUrl": null,
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Claude Code used throughout development for features, bug fixes, and architecture"
+}

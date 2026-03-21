@@ -1,0 +1,57 @@
+{
+  "slug": "tinta-academy-v4",
+  "name": "Tinta Academy",
+  "tagline": "Wine education platform with course sales and email marketing",
+  "description": "Tinta Academy is a wine education platform where educators create and sell courses, and students purchase and access them. It features a complete checkout flow with MercadoPago integration, role-based dashboards for admins, educators, and students, and a built-in email campaign system with templates, workflows, and open/click tracking.",
+  "highlights": [
+    "Full checkout flow with MercadoPago payment integration and webhook processing",
+    "Role-based dashboards: superadmin, educator, and student panels",
+    "Email marketing system with campaigns, templates, workflows, and tracking",
+    "Rich text course editor with Tiptap and image uploads via Vercel Blob",
+    "OTP authentication with branded email templates via Resend"
+  ],
+  "type": "web-app",
+  "tags": [
+    "education",
+    "e-commerce",
+    "wine",
+    "courses",
+    "email-marketing",
+    "multi-role",
+    "saas"
+  ],
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "Neon",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth.js",
+    "MercadoPago",
+    "Resend",
+    "React Email",
+    "Svix",
+    "Vercel Blob",
+    "Tiptap",
+    "Zod",
+    "ExcelJS"
+  ],
+  "startDate": "2026-01-05",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 66684,
+      "SQL": 422,
+      "CSS": 282
+    },
+    "totalLines": 67388
+  },
+  "url": "https://academy.tinta.wine",
+  "repoUrl": "https://github.com/raphauy/tinta-academy-v4",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code (CLAUDE.md present, feature commits suggest AI-assisted development)"
+}

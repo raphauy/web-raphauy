@@ -1,0 +1,54 @@
+{
+  "slug": "qeeup",
+  "name": "QeeUp",
+  "tagline": "Multi-tenant AI-powered ticketing platform with WhatsApp integration",
+  "description": "QeeUp is a multi-tenant customer support platform that combines AI chatbots with traditional ticketing. It enables businesses to handle support requests across WhatsApp and web channels, with automatic ticket creation via AI tool calling and real-time dashboards for operators and admins.",
+  "highlights": [
+    "AI chatbot with tool calling for automatic ticket creation and data collection",
+    "Multi-channel support: WhatsApp (Evolution API), web UI, and embeddable widget",
+    "Multi-tenant architecture with role-based access (Superadmin, Admin, Operator)",
+    "Real-time reactive dashboards powered by Convex",
+    "OTP email authentication with configurable AI models per tenant"
+  ],
+  "type": "web-app",
+  "tags": [
+    "ticketing",
+    "customer-support",
+    "multi-tenant",
+    "chatbot",
+    "saas",
+    "real-time",
+    "whatsapp"
+  ],
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Convex",
+    "Tailwind CSS",
+    "Vercel AI SDK",
+    "OpenRouter",
+    "shadcn/ui",
+    "WhatsApp",
+    "Evolution API",
+    "Resend",
+    "React Email",
+    "Zod",
+    "TanStack Table"
+  ],
+  "startDate": "2026-02-25",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 28128,
+      "CSS": 269,
+      "Shell": 80
+    },
+    "totalLines": 28477
+  },
+  "url": "https://qeeup.raphauy.dev",
+  "repoUrl": "https://github.com/raphauy/qeeup",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code (CLAUDE.md present, multiple commits co-authored by Claude)"
+}

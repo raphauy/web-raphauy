@@ -1,0 +1,57 @@
+{
+  "slug": "uruguay-en-vinos",
+  "name": "Uruguay en Vinos",
+  "tagline": "Bilingual wine content platform with articles, tastings, and book sales",
+  "description": "A bilingual content platform for Uruguay en Vinos, featuring wine articles, tasting notes, and book pre-sales. Includes an admin panel for content management with a rich text editor, internationalization (ES/EN), Cloudinary image uploads, and email notifications. Integrates with an external CRM for book pre-sale orders.",
+  "highlights": [
+    "Bilingual content platform (Spanish/English) with next-international",
+    "Rich text editor for wine articles with Tiptap/Novel",
+    "Book pre-sale system integrated with external CRM",
+    "Admin panel with CRUD for articles, wines, categories, and tags",
+    "AI-powered content features with OpenAI and Groq"
+  ],
+  "type": "web-app",
+  "tags": [
+    "wine",
+    "content-platform",
+    "bilingual",
+    "blog",
+    "admin-panel",
+    "cms"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth.js",
+    "Cloudinary",
+    "OpenAI",
+    "Groq",
+    "Vercel AI SDK",
+    "Nodemailer",
+    "next-international",
+    "TanStack Table",
+    "Tiptap",
+    "Zod",
+    "Vercel"
+  ],
+  "startDate": "2023-10-03",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 9355,
+      "SQL": 155,
+      "HTML": 77,
+      "CSS": 60
+    },
+    "totalLines": 9647
+  },
+  "url": "https://uruguayenvinos.com",
+  "repoUrl": "https://github.com/raphauy/uruguay-en-vinos",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

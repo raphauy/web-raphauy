@@ -1,0 +1,47 @@
+{
+  "slug": "terminals-data",
+  "name": "Terminals Data",
+  "tagline": "Real-time bus schedule monitoring and analytics for terminals",
+  "description": "A data pipeline and analytics dashboard for monitoring intercity bus schedules across terminals. Scrapes departure data from terminal websites, tracks schedule statuses in real-time (open, closing, closed, cancelled), and provides analytical insights. Includes Telegram bot alerts for delayed buses and background jobs for continuous data updates.",
+  "highlights": [
+    "Real-time bus schedule scraping and status tracking across terminals",
+    "Background jobs for continuous departure monitoring and status updates",
+    "Telegram bot integration for delay alerts and notifications",
+    "Analytics dashboard with data tables, charts, and CSV export",
+    "Multi-line, multi-terminal architecture with seat availability tracking"
+  ],
+  "type": "web-app",
+  "tags": ["data-pipeline", "web-scraping", "analytics", "monitoring", "transportation", "telegram-bot"],
+  "tech": [
+    "Next.js",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Telegraf",
+    "Cheerio",
+    "LangChain",
+    "NextAuth.js",
+    "Tremor",
+    "Docker",
+    "Zod"
+  ],
+  "startDate": "2023-05-31",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 9984,
+      "HTML": 9642,
+      "SQL": 235,
+      "JavaScript": 220,
+      "CSS": 58
+    },
+    "totalLines": 20139
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/bus-data",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

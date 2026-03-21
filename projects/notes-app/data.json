@@ -1,0 +1,42 @@
+{
+  "slug": "notes-app",
+  "name": "AI Notes App",
+  "tagline": "Real-time notes app with AI assistance powered by Convex and OpenAI",
+  "description": "A real-time notes application with AI-powered features built on Convex as the backend. Users authenticate via OTP email, create and manage personal notes, and interact with an AI assistant powered by OpenAI through the Vercel AI SDK. Features a clean, dark-mode-ready interface with real-time sync.",
+  "highlights": [
+    "Real-time backend with Convex for instant note synchronization",
+    "AI assistant integration with OpenAI via Vercel AI SDK",
+    "OTP email authentication with Convex Auth",
+    "Clean UI with shadcn/ui and dark mode support",
+    "Built with Next.js 15 and React 19"
+  ],
+  "type": "web-app",
+  "tags": ["notes", "ai-assistant", "real-time", "productivity"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Convex",
+    "Convex Auth",
+    "Vercel AI SDK",
+    "OpenAI",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "React Hook Form",
+    "Zod"
+  ],
+  "startDate": "2025-07-02",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 1715,
+      "CSS": 126
+    },
+    "totalLines": 1841
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/notes-app",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

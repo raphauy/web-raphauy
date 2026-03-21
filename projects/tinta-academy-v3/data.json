@@ -1,0 +1,47 @@
+{
+  "slug": "tinta-academy-v3",
+  "name": "Tinta Academy V3",
+  "tagline": "Wine education platform and WSET Approved Programme Provider in Uruguay",
+  "description": "A comprehensive wine education platform for Tinta Academy, Uruguay's first WSET Approved Programme Provider. Manages the full student lifecycle including course enrollment, multi-step registration, online payments via MercadoPago, and automated notifications. Features an admin panel for course management, student tracking, and order processing.",
+  "highlights": [
+    "Multi-step enrollment flow with coupon validation and payment integration",
+    "MercadoPago payment processing with webhook-driven order state machine",
+    "Admin dashboard for managing courses, students, orders, and educators",
+    "Dual notification system with Resend emails and Slack webhooks",
+    "Clerk-based authentication with role-based access control"
+  ],
+  "type": "web-app",
+  "tags": ["education", "wine", "e-commerce", "enrollment", "payments", "admin-panel"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "Clerk",
+    "MercadoPago",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Resend",
+    "React Email",
+    "UploadThing",
+    "React Hook Form",
+    "Zod",
+    "TanStack Table",
+    "Vercel"
+  ],
+  "startDate": "2024-09-23",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 11663,
+      "CSS": 74
+    },
+    "totalLines": 11737
+  },
+  "url": "https://tinta-academy-delta.vercel.app/",
+  "repoUrl": "https://github.com/raphauy/tinta-academy-v3",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

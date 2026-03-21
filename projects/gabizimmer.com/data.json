@@ -1,0 +1,51 @@
+{
+  "slug": "gabizimmer.com",
+  "name": "Gabi Zimmer",
+  "tagline": "Personal website and wine blog with AI-moderated comments and chat",
+  "description": "Personal website for Gabi Zimmer, a wine communicator and founder of @tinta.wine. Features a rich-text blog built with Novel editor, AI-powered comment moderation using OpenAI, a chat interface for wine-related questions, and an admin panel for content and user management. Includes OTP authentication and markdown content migration tools.",
+  "highlights": [
+    "Rich-text blog with Novel (Tiptap-based) editor and markdown migration tools",
+    "AI-powered comment moderation with OpenAI for spam and quality filtering",
+    "Interactive AI chat for wine-related questions",
+    "OTP email authentication with NextAuth.js v5",
+    "Admin panel with user management and content dashboard"
+  ],
+  "type": "web-app",
+  "tags": ["blog", "wine", "personal-website", "content-management", "ai-moderation"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth.js",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Vercel AI SDK",
+    "OpenAI",
+    "Novel",
+    "Tiptap",
+    "Framer Motion",
+    "Resend",
+    "React Email",
+    "Vercel Blob",
+    "Zod",
+    "Vercel"
+  ],
+  "startDate": "2025-08-01",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 14257,
+      "CSS": 491,
+      "Python": 336,
+      "Shell": 395
+    },
+    "totalLines": 15479
+  },
+  "url": "https://gabizimmer.com",
+  "repoUrl": "https://github.com/raphauy/gabizimmer.com",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code assistance"
+}

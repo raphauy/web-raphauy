@@ -1,0 +1,43 @@
+{
+  "slug": "seprivee",
+  "name": "SePrivée",
+  "tagline": "Website for a private dining and curated events studio",
+  "description": "A bilingual website for SePrivée, a private dining and curated events studio based in Montevideo and Maldonado, Uruguay. Features service showcases for private dining, sushi experiences, cooking classes, and curated events, along with sample menus and a contact form with email notifications via Resend.",
+  "highlights": [
+    "Bilingual support (Spanish/English)",
+    "Service showcases for private dining, sushi, cooking classes, and events",
+    "Contact form with email notifications via Resend",
+    "Responsive design with modern UI",
+    "Built with Next.js 16 and React 19"
+  ],
+  "type": "landing",
+  "tags": [
+    "gastronomy",
+    "private-dining",
+    "events",
+    "bilingual",
+    "landing-page"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Resend",
+    "React Email",
+    "Vercel"
+  ],
+  "startDate": "2025-12-17",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 3507,
+      "CSS": 242
+    },
+    "totalLines": 3749
+  },
+  "url": "https://www.seprivee.com",
+  "repoUrl": "https://github.com/raphauy/seprivee",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

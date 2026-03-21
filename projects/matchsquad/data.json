@@ -1,0 +1,40 @@
+{
+  "slug": "matchsquad",
+  "name": "MatchSquad",
+  "tagline": "Multi-tenant SaaS platform for managing tennis and padel tournaments",
+  "description": "A multi-tenant SaaS platform for organizing and managing sports tournaments in tennis and padel. Features organization management with invitations, category configuration, and a real-time backend powered by Convex. Built with OTP-based authentication via email using Resend.",
+  "highlights": [
+    "Multi-tenant architecture with organization-based access control",
+    "Real-time backend with Convex for live tournament updates",
+    "OTP email authentication via Convex Auth and Resend",
+    "Admin panel for managing organizations, categories, and invitations",
+    "Built with Next.js 16 and React 19"
+  ],
+  "type": "web-app",
+  "tags": ["sports", "tournaments", "multi-tenant", "saas", "tennis", "padel"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Convex",
+    "Convex Auth",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Resend"
+  ],
+  "startDate": "2025-11-17",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 10133,
+      "CSS": 117,
+      "JavaScript": 52
+    },
+    "totalLines": 10302
+  },
+  "url": "https://matchsquad.raphauy.dev/",
+  "repoUrl": "https://github.com/raphauy/matchsquad",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code and Cursor AI assistance"
+}

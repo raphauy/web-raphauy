@@ -1,0 +1,46 @@
+{
+  "slug": "tinta-web-v1",
+  "name": "Tinta Web V1",
+  "tagline": "Multilingual wine community website with AI-powered content features",
+  "description": "The official website for Tinta Wine, a wine community platform. Features multilingual support (Spanish/English) with next-international, AI-powered content generation with OpenAI, admin panel for content management, and email-based authentication. Includes analytics tracking with Vercel Analytics and Speed Insights.",
+  "highlights": [
+    "Multilingual support with next-international (Spanish/English)",
+    "AI-powered content features with OpenAI integration",
+    "Admin panel with data tables and content management",
+    "Email-based authentication with NextAuth.js and Nodemailer",
+    "Performance monitoring with Vercel Analytics and Speed Insights"
+  ],
+  "type": "web-app",
+  "tags": ["wine", "community", "multilingual", "content-management", "i18n"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "OpenAI",
+    "NextAuth.js",
+    "next-international",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "TanStack Table",
+    "Framer Motion",
+    "Nodemailer",
+    "Vercel Analytics",
+    "Zod"
+  ],
+  "startDate": "2023-10-03",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 4787,
+      "CSS": 71
+    },
+    "totalLines": 4858
+  },
+  "url": "https://tinta-web.vercel.app/",
+  "repoUrl": "https://github.com/raphauy/tinta-web",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

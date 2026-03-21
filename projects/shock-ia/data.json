@@ -1,0 +1,61 @@
+{
+  "slug": "shock-ia",
+  "name": "Shock IA",
+  "tagline": "AI-powered multi-tenant CRM with WhatsApp, campaigns, and voice",
+  "description": "A comprehensive AI-powered CRM platform for managing customer conversations across WhatsApp and web channels. Features intelligent chatbots with OpenAI function calling, RAG with pgvector embeddings, WhatsApp integration via WRC SDK, campaign management with stage-based pipelines, voice transcription with ElevenLabs, appointment booking via Cal.com, and real-time conversation management through Chatwoot.",
+  "highlights": [
+    "AI chatbots with OpenAI function calling and RAG via pgvector embeddings",
+    "WhatsApp integration with WRC SDK for automated customer conversations",
+    "Multi-stage campaign management with pipeline automation",
+    "Voice transcription with ElevenLabs and speech synthesis",
+    "Chatwoot integration for omnichannel conversation management",
+    "Cal.com booking integration and Google Sheets sync"
+  ],
+  "type": "web-app",
+  "tags": ["crm", "ai-chatbot", "whatsapp", "campaigns", "multi-tenant", "omnichannel", "voice"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "pgvector",
+    "OpenAI",
+    "Vercel AI SDK",
+    "LangChain",
+    "Groq",
+    "ElevenLabs",
+    "WhatsApp",
+    "Chatwoot",
+    "Cal.com",
+    "Google Sheets",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth.js",
+    "Upstash QStash",
+    "Vercel Blob",
+    "TanStack Table",
+    "Tiptap",
+    "Recharts",
+    "Framer Motion",
+    "Zod"
+  ],
+  "startDate": "2024-06-05",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 117403,
+      "JavaScript": 2883,
+      "Shell": 88,
+      "CSS": 88,
+      "HTML": 77,
+      "SVG": 101
+    },
+    "totalLines": 120640
+  },
+  "url": "https://ia.shock.uy/",
+  "repoUrl": "https://github.com/raphauy/shock-ia",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

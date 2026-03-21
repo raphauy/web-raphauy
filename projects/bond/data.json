@@ -1,0 +1,66 @@
+{
+  "slug": "bond",
+  "name": "Bond",
+  "tagline": "Multi-tenant automation platform for AI-powered omnichannel messaging",
+  "description": "Bond is a multi-tenant automation platform that enables businesses to create intelligent chatbot workflows responding to messages from WhatsApp, Instagram, Facebook, and other channels via Chatwoot integration. Each automation features configurable AI agents with custom prompts, knowledge bases, tool calling, and inter-agent transfer rules.",
+  "highlights": [
+    "Multi-agent AI system with inter-agent transfer and tool calling capabilities",
+    "Omnichannel support via Chatwoot: WhatsApp, Instagram, Facebook, and more",
+    "Multi-tenant architecture with per-client AI model configuration",
+    "Real-time WebSocket server for live message processing (Docker-deployed)",
+    "Web scraping engine for real estate listings (CasaWeb, MercadoLibre, InfoCasas, RE/MAX)"
+  ],
+  "type": "web-app",
+  "tags": [
+    "automation",
+    "multi-tenant",
+    "chatbot",
+    "omnichannel",
+    "saas",
+    "real-estate",
+    "web-scraping"
+  ],
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Vercel AI SDK",
+    "OpenAI",
+    "Anthropic",
+    "Chatwoot",
+    "NextAuth.js",
+    "Resend",
+    "React Email",
+    "Vercel Blob",
+    "Upstash QStash",
+    "Recharts",
+    "Framer Motion",
+    "Tiptap",
+    "React Flow",
+    "Docker",
+    "Socket.IO",
+    "Cheerio",
+    "Zod"
+  ],
+  "startDate": "2025-07-20",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 120681,
+      "HTML": 1371,
+      "Shell": 505,
+      "CSS": 405,
+      "SQL": 75
+    },
+    "totalLines": 123037
+  },
+  "url": "https://bondsquad.ai",
+  "repoUrl": "https://github.com/raphauy/bond",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code (CLAUDE.md present, multiple AI-related commits detected)"
+}

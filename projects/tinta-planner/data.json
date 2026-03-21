@@ -1,0 +1,52 @@
+{
+  "slug": "tinta-planner",
+  "name": "Tinta Planner",
+  "tagline": "Social media content management platform for marketing agencies",
+  "description": "A comprehensive content management system designed for digital marketing agencies. Enables multi-client management with content pillars, a visual calendar for scheduling social media posts, newsletter campaigns, AI-powered copy generation, and role-based permissions for agency staff and clients.",
+  "highlights": [
+    "Multi-agency, multi-client architecture with role-based permissions",
+    "Visual content calendar with scheduled publication dates",
+    "AI-powered copy generation using OpenAI for social media posts",
+    "Newsletter campaign management with email tracking and unsubscribe handling",
+    "Image management with Cloudinary integration and carousel support"
+  ],
+  "type": "web-app",
+  "tags": ["social-media", "content-management", "marketing", "multi-tenant", "newsletter", "calendar"],
+  "tech": [
+    "Next.js",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth.js",
+    "OpenAI",
+    "Cloudinary",
+    "Vercel AI SDK",
+    "TipTap",
+    "Novel",
+    "Nodemailer",
+    "Recharts",
+    "Tremor",
+    "Framer Motion",
+    "Zod"
+  ],
+  "startDate": "2023-05-14",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 24709,
+      "SQL": 366,
+      "JavaScript": 268,
+      "CSS": 86,
+      "HTML": 77,
+      "Python": 52
+    },
+    "totalLines": 25558
+  },
+  "url": "https://planner.tinta.wine",
+  "repoUrl": "https://github.com/raphauy/tinta-planner",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

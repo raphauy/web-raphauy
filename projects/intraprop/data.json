@@ -1,0 +1,50 @@
+{
+  "slug": "intraprop",
+  "name": "IntraProp",
+  "tagline": "AI-powered real estate platform with property matching and notifications",
+  "description": "An intelligent real estate management platform that uses OpenAI Assistants for automated property matching, zone analysis, and budget evaluation. Features property listing management with data import from CSV/XLSX, AI-powered search and recommendations via pgvector embeddings, automated email notifications for matching properties, and a custom code generator for rapid CRUD scaffolding.",
+  "highlights": [
+    "Multiple OpenAI Assistants for property matching, zone analysis, and budgeting",
+    "RAG with pgvector embeddings for intelligent property search",
+    "Automated notification system for property matches via email",
+    "Data import from CSV/XLSX with property validation",
+    "Custom code generator for rapid CRUD scaffolding from Prisma models"
+  ],
+  "type": "web-app",
+  "tags": ["real-estate", "ai-matching", "property-management", "notifications", "data-import"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "pgvector",
+    "OpenAI",
+    "OpenAI Assistants",
+    "LangChain",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth.js",
+    "TanStack Table",
+    "Tiptap",
+    "Nodemailer",
+    "React Hook Form",
+    "Zod"
+  ],
+  "startDate": "2023-11-20",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 15367,
+      "SQL": 205,
+      "HTML": 77,
+      "CSS": 67
+    },
+    "totalLines": 15716
+  },
+  "url": "https://app.intraprop.com/",
+  "repoUrl": "https://github.com/raphauy/intraprop",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

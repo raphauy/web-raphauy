@@ -1,0 +1,45 @@
+{
+  "slug": "rc-starter-v2",
+  "name": "RC Starter Kit V2",
+  "tagline": "Full-featured Next.js starter with OTP auth, workspaces, and admin panel",
+  "description": "A production-ready starter kit for building multi-tenant Next.js applications. Includes passwordless OTP email authentication, collaborative workspaces with role-based access, a superadmin panel with metrics, user onboarding flow, and profile management with image uploads. Designed as a reusable foundation for SaaS products.",
+  "highlights": [
+    "Passwordless OTP authentication with NextAuth.js v5 and Resend",
+    "Multi-tenant workspace system with granular roles (Admin/Member)",
+    "Superadmin panel with dashboard metrics and user management",
+    "User onboarding flow with profile image upload via Vercel Blob",
+    "Clean RSC architecture with layered service pattern"
+  ],
+  "type": "library",
+  "tags": ["starter-kit", "boilerplate", "multi-tenant", "saas", "authentication", "admin-panel"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth.js",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Resend",
+    "React Email",
+    "Vercel Blob",
+    "Framer Motion",
+    "Zod",
+    "Vercel"
+  ],
+  "startDate": "2025-07-09",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 10674,
+      "CSS": 120
+    },
+    "totalLines": 10794
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/rc-starter-v2",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code assistance"
+}

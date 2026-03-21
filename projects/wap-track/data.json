@@ -1,0 +1,50 @@
+{
+  "slug": "wap-track",
+  "name": "Wap Track",
+  "tagline": "WhatsApp-integrated tracking platform with AI chatbot and CRM features",
+  "description": "A multi-tenant platform that integrates WhatsApp messaging with AI-powered chatbots for customer tracking and management. Features WhatsApp instance management via WRC SDK, Chatwoot integration for omnichannel support, OpenAI-powered function calling for intelligent conversations, expense tracking, contact management, and group handling with OTP authentication.",
+  "highlights": [
+    "WhatsApp integration with WRC SDK for automated messaging and tracking",
+    "AI chatbot with OpenAI function calling via Vercel AI SDK",
+    "Chatwoot integration for omnichannel conversation management",
+    "Multi-tenant architecture with client-specific dashboards",
+    "OTP authentication system with email notifications via Resend"
+  ],
+  "type": "web-app",
+  "tags": ["whatsapp", "tracking", "crm", "ai-chatbot", "multi-tenant", "omnichannel"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "Neon",
+    "OpenAI",
+    "Vercel AI SDK",
+    "WhatsApp",
+    "Chatwoot",
+    "NextAuth.js",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Resend",
+    "React Email",
+    "UploadThing",
+    "TanStack Table",
+    "React Hook Form",
+    "Zod"
+  ],
+  "startDate": "2025-02-24",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 11845,
+      "CSS": 93
+    },
+    "totalLines": 11938
+  },
+  "url": "https://wap-track.vercel.app/",
+  "repoUrl": "https://github.com/raphauy/wap-track",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

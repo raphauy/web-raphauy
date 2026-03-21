@@ -1,0 +1,46 @@
+{
+  "slug": "rc-starter",
+  "name": "RC Starter Kit",
+  "tagline": "Next.js starter with OTP auth, multi-tenant clients, and admin panel",
+  "description": "A production-ready starter kit for building multi-tenant Next.js applications. Includes OTP email authentication with NextAuth.js v5, client management with slug-based routing, admin panel with data tables, file uploads with UploadThing, and email templates with React Email. Predecessor to RC Starter V2.",
+  "highlights": [
+    "OTP email authentication with NextAuth.js v5 and Resend",
+    "Multi-tenant client architecture with slug-based routing",
+    "Admin panel with TanStack Table data grids",
+    "File upload system with UploadThing",
+    "Email templates with React Email"
+  ],
+  "type": "library",
+  "tags": ["starter-kit", "boilerplate", "multi-tenant", "authentication", "admin-panel"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "Neon",
+    "NextAuth.js",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Resend",
+    "React Email",
+    "UploadThing",
+    "TanStack Table",
+    "React Hook Form",
+    "Zod"
+  ],
+  "startDate": "2024-12-27",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 5652,
+      "CSS": 85
+    },
+    "totalLines": 5737
+  },
+  "url": "https://rc-starter.vercel.app/",
+  "repoUrl": "https://github.com/raphauy/rc-starter",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

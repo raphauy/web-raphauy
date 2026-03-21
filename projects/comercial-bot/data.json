@@ -1,0 +1,52 @@
+{
+  "slug": "comercial-bot",
+  "name": "Comercial Bot",
+  "tagline": "AI sales chatbot platform with lead management and order processing",
+  "description": "A multi-tenant AI-powered sales chatbot platform that automates commercial interactions. Features intelligent lead management, product catalog with order processing, AI function calling for dynamic conversations, document-based RAG with pgvector embeddings, and analytics dashboards. Supports multiple AI providers including OpenAI, Groq, and Google Generative AI.",
+  "highlights": [
+    "AI sales chatbot with function calling for dynamic product recommendations",
+    "Lead management pipeline with automated qualification",
+    "Order processing system with product catalog integration",
+    "RAG with pgvector embeddings for document-based knowledge",
+    "Multi-provider AI support: OpenAI, Groq, and Google Generative AI"
+  ],
+  "type": "web-app",
+  "tags": ["sales", "chatbot", "lead-management", "e-commerce", "multi-tenant", "crm"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "pgvector",
+    "OpenAI",
+    "LangChain",
+    "Groq",
+    "Google AI",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth.js",
+    "Tiptap",
+    "TanStack Table",
+    "Recharts",
+    "Nodemailer",
+    "Zod"
+  ],
+  "startDate": "2024-05-15",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 25413,
+      "JavaScript": 96,
+      "HTML": 77,
+      "CSS": 56,
+      "SVG": 54
+    },
+    "totalLines": 25696
+  },
+  "url": "https://comercialbot.osomgpt.com/",
+  "repoUrl": "https://github.com/raphauy/comercial-bot",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "agency-planner",
+  "name": "Agency Planner",
+  "tagline": "Digital marketing agency platform with AI content and social scheduling",
+  "description": "Agency Planner is a comprehensive multi-tenant platform for digital marketing agencies. It provides social media content planning and scheduling across Instagram, Facebook, and LinkedIn, WhatsApp conversation management, email newsletter campaigns with audience segmentation, and AI-powered content generation — all with role-based team collaboration and approval workflows.",
+  "highlights": [
+    "Social media scheduling for Instagram, Facebook, and LinkedIn with approval workflows",
+    "AI-powered content generation with OpenAI GPT-4o and per-client prompt customization",
+    "WhatsApp conversation management with contact handling and document processing",
+    "Email newsletter system with audience segmentation and campaign analytics",
+    "Multi-tenant architecture with 7 role levels and team collaboration"
+  ],
+  "type": "web-app",
+  "tags": [
+    "marketing",
+    "social-media",
+    "multi-tenant",
+    "newsletter",
+    "scheduling",
+    "saas",
+    "agency"
+  ],
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Vercel AI SDK",
+    "OpenAI",
+    "Google AI",
+    "NextAuth.js",
+    "Stripe",
+    "Resend",
+    "React Email",
+    "Cloudinary",
+    "Vercel Blob",
+    "Knock",
+    "ElevenLabs",
+    "Nivo",
+    "Framer Motion",
+    "WhatsApp",
+    "Chatwoot",
+    "TanStack Table",
+    "Zod"
+  ],
+  "startDate": "2024-03-23",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 55879,
+      "CSS": 156
+    },
+    "totalLines": 56035
+  },
+  "url": "https://agency-planner.com",
+  "repoUrl": "https://github.com/raphauy/agency-planner",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code (CLAUDE.md present), uses OpenAI GPT-4o for content generation"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "ecommerce-ia",
+  "name": "Ecommerce IA",
+  "tagline": "Multi-tenant AI chatbot platform for ecommerce via WhatsApp",
+  "description": "A versatile AI-powered chatbot platform that serves multiple business types through WhatsApp integration. Uses RAG with document embeddings and OpenAI function calling to handle product inquiries, reservations, car service bookings, and sales tracking. Supports multiple LLM providers (OpenAI, Groq, Google) with configurable models per client.",
+  "highlights": [
+    "RAG with document chunking and pgvector embeddings (3072-dim)",
+    "OpenAI function calling for structured data extraction from conversations",
+    "Multi-provider LLM support: OpenAI, Groq, Google Generative AI",
+    "Multi-tenant architecture serving diverse business types (real estate, restaurants, car services, ecommerce)",
+    "Product catalog, sales tracking, and vendor management with embedding-based search"
+  ],
+  "type": "web-app",
+  "tags": ["chatbot", "rag", "multi-tenant", "ecommerce", "function-calling", "whatsapp", "embeddings"],
+  "tech": [
+    "Next.js",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "pgvector",
+    "OpenAI",
+    "Groq",
+    "Google Generative AI",
+    "LangChain",
+    "Vercel AI SDK",
+    "WhatsApp",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth.js",
+    "TipTap",
+    "Novel",
+    "Recharts",
+    "Nodemailer",
+    "Zod"
+  ],
+  "startDate": "2024-06-05",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 21986,
+      "CSV": 135,
+      "JavaScript": 101,
+      "HTML": 77,
+      "CSS": 56,
+      "SVG": 54
+    },
+    "totalLines": 22409
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/ecommerce-ia",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

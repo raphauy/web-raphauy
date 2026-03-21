@@ -1,0 +1,50 @@
+{
+  "slug": "osom",
+  "name": "Osom",
+  "tagline": "AI-powered real estate chatbot with WhatsApp integration and RAG",
+  "description": "An intelligent real estate assistant that helps clients find properties through natural conversation via WhatsApp. Uses RAG (Retrieval-Augmented Generation) with pgvector embeddings to match property listings to client preferences including budget, location, property type, and amenities. Supports multi-tenant architecture for multiple real estate agencies.",
+  "highlights": [
+    "RAG-powered property search using OpenAI embeddings and pgvector",
+    "WhatsApp chatbot integration for natural language property queries",
+    "Multi-tenant architecture supporting multiple real estate agencies",
+    "Conversational AI that extracts preferences (budget, location, type) from chat",
+    "Token usage tracking and billing per client"
+  ],
+  "type": "web-app",
+  "tags": ["real-estate", "chatbot", "rag", "embeddings", "multi-tenant", "whatsapp"],
+  "tech": [
+    "Next.js",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "pgvector",
+    "OpenAI",
+    "LangChain",
+    "Vercel AI SDK",
+    "WhatsApp",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "NextAuth.js",
+    "Docker",
+    "Recharts",
+    "Zod"
+  ],
+  "startDate": "2023-09-07",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 12079,
+      "YAML": 5872,
+      "SQL": 203,
+      "JavaScript": 94,
+      "HTML": 77,
+      "CSS": 56
+    },
+    "totalLines": 18381
+  },
+  "url": "https://inmobiliarias.osomdigital.com",
+  "repoUrl": "https://github.com/raphauy/osom",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

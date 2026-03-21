@@ -1,0 +1,47 @@
+{
+  "slug": "rctracker",
+  "name": "RC Tracker",
+  "tagline": "Project management and time tracking app for client billing",
+  "description": "A project management and development time tracking application designed for freelancers and agencies. Manages clients, projects, deliverables, tasks, and development hours with detailed billing support. Includes a custom code generator that scaffolds complete CRUD functionality from Prisma models, an admin panel, and client-specific portals.",
+  "highlights": [
+    "Hierarchical project structure: Clients → Projects → Deliverables → Tasks → Time entries",
+    "Custom code generator that scaffolds full CRUD from Prisma models",
+    "Client portal with project views and billing overview",
+    "Admin panel with role-based access control",
+    "Data tables with filtering, sorting, and pagination using TanStack Table"
+  ],
+  "type": "web-app",
+  "tags": ["project-management", "time-tracking", "billing", "freelance", "admin-panel", "code-generator"],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth.js",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "OpenAI",
+    "TanStack Table",
+    "Jotai",
+    "React Hook Form",
+    "Zod",
+    "Nodemailer"
+  ],
+  "startDate": "2023-10-03",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 9957,
+      "SQL": 118,
+      "HTML": 77,
+      "CSS": 56
+    },
+    "totalLines": 10208
+  },
+  "url": "https://rctracker.dev",
+  "repoUrl": "https://github.com/raphauy/rctracker",
+  "screenshots": [],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code assistance"
+}
