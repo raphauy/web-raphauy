@@ -1,0 +1,32 @@
+{
+  "slug": "uruguay-in-wines",
+  "name": "Uruguay in Wines",
+  "tagline": "Searchable database of Uruguayan wines with professional tasting notes",
+  "description": "A public wine catalog showcasing Uruguayan wines with professional tasting notes by wine critic Gabi Zimmer. Features a searchable and filterable data table with wines organized by winery, region, grape variety, and vintage. Includes an admin panel for managing wines and users, with Cloudinary-hosted images and Docker deployment.",
+  "highlights": [
+    "Searchable wine catalog with advanced filtering by region, grape, and vintage",
+    "Professional tasting notes by wine critic Gabi Zimmer",
+    "Admin panel with full CRUD for wines and user management",
+    "Cloudinary image hosting for wine labels and tasting notes",
+    "Docker deployment with PostgreSQL"
+  ],
+  "type": "web-app",
+  "tags": ["wine", "catalog", "tasting-notes", "database", "admin-panel"],
+  "tech": ["Next.js", "React", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS", "shadcn/ui", "NextAuth", "Cloudinary", "TanStack Table", "Docker", "Nodemailer", "Zod"],
+  "startDate": "2023-05-31",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 4303,
+      "JavaScript": 119,
+      "CSS": 58,
+      "SQL": 57
+    },
+    "totalLines": 4537
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/uruguay-in-wines",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

@@ -41,23 +41,23 @@
 | 35 | x | ecommerce-ia | TypeScript | public | 2024-08-15 |
 | 36 | x | multi-blog | TypeScript | public | 2024-08-10 |
 | 37 | x | bus-data | TypeScript | private | 2024-07-14 |
-| 38 | | updater-bd | HTML | private | 2024-06-21 |
-| 39 | | osom-survey | TypeScript | public | 2024-05-24 |
-| 40 | | subscriber | TypeScript | public | 2024-05-23 |
-| 41 | | tasting | TypeScript | public | 2024-05-23 |
-| 42 | | tinta-academy-v2 | TypeScript | public | 2024-05-23 |
-| 43 | | bitcoin-cli | TypeScript | public | 2024-05-16 |
-| 44 | | tinta-link | TypeScript | public | 2024-02-19 |
-| 45 | | bodegas-carmelo | TypeScript | public | 2023-11-01 |
-| 46 | | uruguay-in-wines | TypeScript | public | 2023-08-23 |
-| 47 | | comunidad-gz | TypeScript | public | 2023-06-30 |
+| 38 | x | updater-bd | HTML | private | 2024-06-21 |
+| 39 | x | osom-survey | TypeScript | public | 2024-05-24 |
+| 40 | x | subscriber | TypeScript | public | 2024-05-23 |
+| 41 | x | tasting | TypeScript | public | 2024-05-23 |
+| 42 | x | tinta-academy-v2 | TypeScript | public | 2024-05-23 |
+| 43 | x | bitcoin-cli | TypeScript | public | 2024-05-16 |
+| 44 | x | tinta-link | TypeScript | public | 2024-02-19 |
+| 45 | x | bodegas-carmelo | TypeScript | public | 2023-11-01 |
+| 46 | x | uruguay-in-wines | TypeScript | public | 2023-08-23 |
+| 47 | x | comunidad-gz | TypeScript | public | 2023-06-30 |
+| 48 | x | wine-stores | TypeScript | public | 2024-08-18 |
 
 ## Repos no clonados
 
 | # | Repo | Lenguaje | Visibilidad | Último push |
 |--:|------|----------|-------------|-------------|
 | 1 | rapha.uy | HTML | public | 2025-11-18 |
-| 2 | wine-stores | TypeScript | public | 2024-08-18 |
 | 3 | whatsapp-backend | TypeScript | private | 2024-08-09 |
 | 4 | agency | TypeScript | public | 2024-03-19 |
 | 5 | drivegpt.chat | TypeScript | public | 2023-08-24 |

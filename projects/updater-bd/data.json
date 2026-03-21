@@ -1,0 +1,38 @@
+{
+  "slug": "updater-bd",
+  "name": "Terminals Updater",
+  "tagline": "Multi-threaded web scraper for terminal schedule data collection",
+  "description": "A headless scraping service that collects departure schedules from terminal websites using Puppeteer and Cheerio. Runs as a Dockerized service with configurable proxy rotation, multi-threaded workers for parallel scraping, and scheduled execution. Feeds data into the Terminals Data analytics dashboard via API.",
+  "highlights": [
+    "Multi-threaded scraping with Node.js Worker Threads for parallel data collection",
+    "Headless browser automation with Puppeteer and HTML parsing with Cheerio",
+    "Configurable proxy rotation for reliable scraping at scale",
+    "Dockerized deployment with scheduled execution and block-time management",
+    "API integration to feed scraped data into analytics dashboard"
+  ],
+  "type": "cli",
+  "tags": ["web-scraping", "data-pipeline", "automation", "worker-threads", "headless-browser"],
+  "tech": [
+    "TypeScript",
+    "Puppeteer",
+    "Cheerio",
+    "Node.js Worker Threads",
+    "Docker",
+    "Axios"
+  ],
+  "startDate": "2023-12-07",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 4213,
+      "YAML": 1084,
+      "CSV": 767
+    },
+    "totalLines": 6064
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/updater-bd",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

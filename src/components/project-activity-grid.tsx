@@ -204,6 +204,7 @@ export function ProjectActivityGrid({ projects, commitsByDay }: Props) {
           {totalLoc > 0 && (
             <>, {totalLoc.toLocaleString()} loc</>
           )}
+          {" "}in the last 3 years
         </p>
 
         <div className="overflow-x-auto">

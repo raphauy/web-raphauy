@@ -1,0 +1,29 @@
+{
+  "slug": "bitcoin-cli",
+  "name": "Bitcoin CLI Commands",
+  "tagline": "Interactive reference directory for 152 Bitcoin CLI commands",
+  "description": "A searchable, interactive reference for Bitcoin Core CLI commands built as a companion tool for the b4os.dev course. Features a sortable data table with 152 commands, real-time search across names and descriptions, pagination, and direct links to chainquery.com documentation for each command.",
+  "highlights": [
+    "152 Bitcoin CLI commands with descriptions and argument details",
+    "Real-time search filtering across command names and descriptions",
+    "Sortable and paginated data table with TanStack Table",
+    "Direct links to external documentation on chainquery.com"
+  ],
+  "type": "web-app",
+  "tags": ["bitcoin", "cli-reference", "developer-tools", "education", "cryptocurrency"],
+  "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "TanStack Table"],
+  "startDate": "2024-05-15",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 2837,
+      "CSS": 56
+    },
+    "totalLines": 2893
+  },
+  "url": "https://bitcoin-cli.rapha.uy/",
+  "repoUrl": "https://github.com/raphauy/bitcoin-cli",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

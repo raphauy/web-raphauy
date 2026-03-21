@@ -1,0 +1,29 @@
+{
+  "slug": "bodegas-carmelo",
+  "name": "Bodegas de Carmelo",
+  "tagline": "Interactive showcase of wineries in Carmelo, Uruguay",
+  "description": "A visually appealing single-page directory showcasing 7 wineries in Carmelo, Uruguay. Features a responsive card grid with hover effects, randomized display order on each visit, and direct links to each winery's website or social media. Built as a promotional tool for the local wine tourism scene.",
+  "highlights": [
+    "Responsive winery card grid with hover effects and external links",
+    "Randomized display order for fair winery visibility",
+    "Optimized images with next/image for fast loading",
+    "Dark mode support with next-themes"
+  ],
+  "type": "landing",
+  "tags": ["wine", "tourism", "directory", "showcase", "carmelo", "uruguay"],
+  "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "react-magic-motion"],
+  "startDate": "2023-10-28",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 2174,
+      "CSS": 68
+    },
+    "totalLines": 2242
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/bodegas-carmelo",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

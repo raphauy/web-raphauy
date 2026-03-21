@@ -1,0 +1,31 @@
+{
+  "slug": "subscriber",
+  "name": "Subscriber Widget",
+  "tagline": "Embeddable newsletter subscription widget for any website",
+  "description": "A lightweight, embeddable newsletter subscription widget built with React and distributed as a UMD library. Site owners add two lines of HTML to embed a styled subscription form that validates and submits contact data to a backend API. Supports multiple client instances on the same page with per-client configuration.",
+  "highlights": [
+    "Embeddable widget distributed as UMD library via Vite",
+    "Auto-initializes from data attributes — zero JavaScript setup required",
+    "Multi-client support with isolated instances on the same page",
+    "Form validation with Zod and real-time feedback"
+  ],
+  "type": "library",
+  "tags": ["widget", "newsletter", "embeddable", "subscription-form"],
+  "tech": ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "React Hook Form", "Zod"],
+  "startDate": "2024-02-20",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "JavaScript": 20874,
+      "TypeScript": 468,
+      "JSON": 99,
+      "CSS": 57
+    },
+    "totalLines": 21541
+  },
+  "url": "https://subscriber.tinta.wine/",
+  "repoUrl": "https://github.com/raphauy/subscriber",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}

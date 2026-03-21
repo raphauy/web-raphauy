@@ -1,0 +1,34 @@
+{
+  "slug": "osom-survey",
+  "name": "Osom Survey",
+  "tagline": "AI-powered conversational surveys for community diagnostics via WhatsApp",
+  "description": "A conversational survey platform that uses AI to conduct community diagnostics through natural WhatsApp dialogues. Organizations create themed questionnaires and a GPT-4o chatbot engages citizens, collects concerns and proposed solutions, evaluates severity, and auto-categorizes responses using semantic embeddings. Multi-tenant architecture supports multiple NGOs and municipalities with isolated data and dashboards.",
+  "highlights": [
+    "AI-driven conversational interviews via WhatsApp integration",
+    "Automatic response categorization using pgvector semantic embeddings",
+    "Multi-tenant platform with per-organization dashboards and analytics",
+    "GPT-4o function calling for structured data extraction from natural dialogue",
+    "Severity scoring and demographic data collection with visual analytics"
+  ],
+  "type": "web-app",
+  "tags": ["surveys", "civic-tech", "conversational-ai", "community-diagnostics", "multi-tenant", "chatbot"],
+  "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Prisma", "PostgreSQL", "pgvector", "OpenAI", "LangChain", "NextAuth", "WhatsApp", "Recharts", "Nodemailer", "Zod"],
+  "startDate": "2024-01-11",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 10787,
+      "SQL": 152,
+      "JSON": 148,
+      "JavaScript": 94,
+      "HTML": 77,
+      "CSS": 56
+    },
+    "totalLines": 11316
+  },
+  "url": null,
+  "repoUrl": "https://github.com/raphauy/osom-survey",
+  "screenshots": [],
+  "builtWithAI": false,
+  "aiDetails": null
+}
