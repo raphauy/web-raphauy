@@ -53,7 +53,7 @@
   },
   "url": "https://www.onmindcrm.com",
   "repoUrl": null,
-  "screenshots": [],
+  "screenshots": ["01-dashboard.png", "02-categories.png", "03-conversations.png", "04-campaigns.png", "05-templates.png", "06-users.png", "07-whatsapp.png", "08-settings.png", "09-help-center.png", "10-invite-email.png", "11-otp-email.png"],
   "builtWithAI": true,
   "aiDetails": "Claude Code used throughout development for features, bug fixes, and architecture",
   "repoPrivate": true
