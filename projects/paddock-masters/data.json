@@ -46,7 +46,7 @@
   },
   "url": "https://paddock-masters.raphauy.dev/",
   "repoUrl": "https://github.com/raphauy/f1-prediction",
-  "screenshots": [],
+  "screenshots": ["01-dashboard.png", "02-predictions.png", "03-global-dashboard.png", "04-competitors.png", "05-settings.png", "06-admin.png", "07-grand-prix.png", "08-questions.png", "09-edit-question.png", "10-edit-template.png"],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code assistance",
   "repoPrivate": false
