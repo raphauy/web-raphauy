@@ -1,26 +1,16 @@
+import { neon } from "@neondatabase/serverless"
 import { Octokit } from "@octokit/rest"
 import * as dotenv from "dotenv"
-import fs from "fs"
-import path from "path"
 
 dotenv.config()
 
-interface RepoStats {
-  stars: number
-  forks: number
-  languages: Record<string, number>
-  lastCommitDate: string
-  totalCommits: number
-  description: string | null
+const DATABASE_URL = process.env.DATABASE_URL
+if (!DATABASE_URL) {
+  console.error("Error: DATABASE_URL not found in .env")
+  process.exit(1)
 }
 
-interface GitHubActivityData {
-  commitsByDay: Record<string, number>
-  lastUpdated: string
-  repos: Record<string, RepoStats>
-}
-
-const DATA_PATH = path.join(process.cwd(), "data", "github-activity.json")
+const sql = neon(DATABASE_URL)
 
 function parseRepoArg(arg: string): { owner: string; repo: string } {
   // Accept full URL or owner/repo format
@@ -33,21 +23,6 @@ function parseRepoArg(arg: string): { owner: string; repo: string } {
     return { owner: parts[0], repo: parts[1] }
   }
   throw new Error(`Invalid repo format: "${arg}". Use owner/repo or a GitHub URL.`)
-}
-
-function loadExistingData(): GitHubActivityData {
-  if (fs.existsSync(DATA_PATH)) {
-    return JSON.parse(fs.readFileSync(DATA_PATH, "utf-8"))
-  }
-  return { commitsByDay: {}, lastUpdated: "", repos: {} }
-}
-
-function saveData(data: GitHubActivityData) {
-  const dir = path.dirname(DATA_PATH)
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true })
-  }
-  fs.writeFileSync(DATA_PATH, JSON.stringify(data, null, 2) + "\n")
 }
 
 async function main() {
@@ -127,66 +102,54 @@ async function main() {
 
   console.log(`  Total commits: ${totalCommits}`)
 
-  // Load existing data and merge
-  const data = loadExistingData()
-
-  // If this repo was already processed, subtract its old commits from commitsByDay
-  const oldRepoKey = data.repos[repoKey]
-  if (oldRepoKey) {
-    console.log(`  Repo already exists, updating...`)
-    // We need to re-calculate commitsByDay by subtracting old repo commits
-    // We don't have per-repo commit days stored, so we rebuild from scratch
-    // by removing the old total and adding new
-    // This is a simplification — for perfect accuracy we'd need per-repo day data
-    // Instead, we store per-repo commit days in a separate structure
+  // UPSERT commits into Neon
+  console.log(`  Writing commits to Neon...`)
+  for (const [date, count] of Object.entries(commitDays)) {
+    await sql`
+      INSERT INTO commits_by_repo_day (repo_key, commit_date, commit_count)
+      VALUES (${repoKey}, ${date}::date, ${count})
+      ON CONFLICT (repo_key, commit_date) DO UPDATE SET commit_count = EXCLUDED.commit_count
+    `
   }
 
-  // To handle re-runs properly, store per-repo commit days
-  // and rebuild the aggregate commitsByDay from all repos
-  const perRepoCommits: Record<string, Record<string, number>> = {}
+  // UPSERT repo stats
+  await sql`
+    INSERT INTO repo_stats (repo_key, stars, forks, languages, last_commit_date, total_commits, description)
+    VALUES (
+      ${repoKey},
+      ${repoData.stargazers_count},
+      ${repoData.forks_count},
+      ${JSON.stringify(languages)}::jsonb,
+      ${lastCommitDate || null}::date,
+      ${totalCommits},
+      ${repoData.description}
+    )
+    ON CONFLICT (repo_key) DO UPDATE SET
+      stars = EXCLUDED.stars,
+      forks = EXCLUDED.forks,
+      languages = EXCLUDED.languages,
+      last_commit_date = EXCLUDED.last_commit_date,
+      total_commits = EXCLUDED.total_commits,
+      description = EXCLUDED.description,
+      updated_at = NOW()
+  `
 
-  // Load per-repo data from existing repos (reconstruct from aggregate if needed)
-  // For simplicity on first implementation: rebuild aggregate from scratch
-  // Store individual repo commits in a parallel file
-  const perRepoPath = path.join(path.dirname(DATA_PATH), "github-commits-by-repo.json")
-  if (fs.existsSync(perRepoPath)) {
-    Object.assign(perRepoCommits, JSON.parse(fs.readFileSync(perRepoPath, "utf-8")))
-  }
+  // Update metadata
+  await sql`
+    INSERT INTO github_activity_meta (id, last_updated)
+    VALUES (1, NOW())
+    ON CONFLICT (id) DO UPDATE SET last_updated = NOW()
+  `
 
-  // Update this repo's commits
-  perRepoCommits[repoKey] = commitDays
+  // Verify
+  const repoCount = await sql`SELECT COUNT(*) as count FROM repo_stats`
+  const commitCount = await sql`
+    SELECT SUM(commit_count)::int as total FROM commits_by_repo_day
+  `
 
-  // Rebuild aggregate commitsByDay from all repos
-  const aggregated: Record<string, number> = {}
-  for (const repoCommits of Object.values(perRepoCommits)) {
-    for (const [day, count] of Object.entries(repoCommits)) {
-      aggregated[day] = (aggregated[day] || 0) + count
-    }
-  }
-
-  // Update main data
-  data.commitsByDay = aggregated
-  data.lastUpdated = new Date().toISOString()
-  data.repos[repoKey] = {
-    stars: repoData.stargazers_count,
-    forks: repoData.forks_count,
-    languages,
-    lastCommitDate,
-    totalCommits,
-    description: repoData.description,
-  }
-
-  // Save both files
-  saveData(data)
-  fs.writeFileSync(perRepoPath, JSON.stringify(perRepoCommits, null, 2) + "\n")
-
-  console.log(`\n✓ Saved to ${DATA_PATH}`)
-  console.log(`  Total repos tracked: ${Object.keys(data.repos).length}`)
-  console.log(`  Total unique days with commits: ${Object.keys(data.commitsByDay).length}`)
-
-  // Print summary
-  const totalAggregatedCommits = Object.values(data.commitsByDay).reduce((a, b) => a + b, 0)
-  console.log(`  Total commits across all repos: ${totalAggregatedCommits}`)
+  console.log(`\n✓ Saved to Neon database`)
+  console.log(`  Total repos tracked: ${repoCount[0].count}`)
+  console.log(`  Total commits across all repos: ${commitCount[0].total}`)
 }
 
 main().catch((err) => {

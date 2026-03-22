@@ -29,10 +29,10 @@ const jsonLd = {
   ],
 }
 
-export default function Home() {
+export default async function Home() {
   const projects = getAllProjects()
   const allTechs = getAllTechs()
-  const githubActivity = getGitHubActivity()
+  const githubActivity = await getGitHubActivity()
 
   return (
     <>
