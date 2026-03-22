@@ -37,7 +37,7 @@
   },
   "url": "https://www.seprivee.com",
   "repoUrl": "https://github.com/raphauy/seprivee",
-  "screenshots": [],
+  "screenshots": ["01-landing.png", "02-philosophy.png", "03-experiences.png", "04-cta.png"],
   "builtWithAI": false,
   "aiDetails": null,
   "repoPrivate": false
