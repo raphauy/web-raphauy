@@ -1,6 +1,6 @@
 {
   "slug": "gabizimmer.com",
-  "name": "Gabi Zimmer",
+  "name": "GabiZimmer.com",
   "tagline": "Personal website and wine blog with AI-moderated comments and chat",
   "description": "Personal website for Gabi Zimmer, a wine communicator and founder of @tinta.wine. Features a rich-text blog built with Novel editor, AI-powered comment moderation using OpenAI, a chat interface for wine-related questions, and an admin panel for content and user management. Includes OTP authentication and markdown content migration tools.",
   "highlights": [
