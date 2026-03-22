@@ -60,7 +60,7 @@
   },
   "url": "https://bondsquad.ai",
   "repoUrl": "https://github.com/raphauy/bond",
-  "screenshots": [],
+  "screenshots": ["01-dashboard.png", "02-overview.png", "03-agent-instructions.png", "04-agent-config.png", "05-instagram.png", "06-crm.png", "07-conversations.png", "08-campaign-detail.png", "09-tools-results.png", "10-analytics.png"],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code (CLAUDE.md present, multiple AI-related commits detected)",
   "repoPrivate": true
