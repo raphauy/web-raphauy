@@ -41,7 +41,7 @@
   },
   "url": "https://matchsquad.raphauy.dev/",
   "repoUrl": "https://github.com/raphauy/matchsquad",
-  "screenshots": [],
+  "screenshots": ["01-signin.png", "02-admin-org.png", "03-categories.png"],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code and Cursor AI assistance",
   "repoPrivate": false

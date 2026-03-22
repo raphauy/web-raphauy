@@ -51,7 +51,7 @@
   },
   "url": "https://gabizimmer.com",
   "repoUrl": "https://github.com/raphauy/gabizimmer.com",
-  "screenshots": [],
+  "screenshots": ["01-landing.png", "02-blog.png", "03-chat.png"],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code assistance",
   "repoPrivate": false
