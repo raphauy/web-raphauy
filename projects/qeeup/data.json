@@ -48,7 +48,7 @@
   },
   "url": "https://qeeup.raphauy.dev",
   "repoUrl": "https://github.com/raphauy/qeeup",
-  "screenshots": [],
+  "screenshots": ["01-dashboard.png", "02-contacts.png", "03-tickets.png", "04-users.png", "05-whatsapp.png", "06-settings.png", "07-chatbot-ia.png", "08-help-center.png", "09-admin-dashboard.png"],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code (CLAUDE.md present, multiple commits co-authored by Claude)",
   "repoPrivate": true

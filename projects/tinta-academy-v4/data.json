@@ -51,7 +51,7 @@
   },
   "url": "https://academy.tinta.wine",
   "repoUrl": "https://github.com/raphauy/tinta-academy-v4",
-  "screenshots": [],
+  "screenshots": ["01-landing.png", "02-landing-wset.png", "03-courses.png", "04-testimonials.png", "05-course-detail.png", "06-educator-dashboard.png", "07-educator-courses.png", "08-create-course.png", "09-communications.png", "10-new-campaign.png", "11-comms-docs.png", "12-student-dashboard.png", "13-student-orders.png"],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code (CLAUDE.md present, feature commits suggest AI-assisted development)",
   "repoPrivate": false

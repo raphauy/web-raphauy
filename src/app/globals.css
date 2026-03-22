@@ -156,3 +156,22 @@
 .scrollbar-thin::-webkit-scrollbar-thumb:hover {
   background: var(--muted-foreground);
 }
+
+/* Lightbox scrollbar */
+.lightbox-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
+.lightbox-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.lightbox-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.lightbox-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+.lightbox-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

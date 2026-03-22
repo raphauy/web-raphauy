@@ -52,7 +52,7 @@ export function ProjectDetail({
             src={`/projects/${project.slug}/screenshots/${heroScreenshot}`}
             alt={project.name}
             fill
-            className="object-cover"
+            className="object-cover object-top"
             sizes="100vw"
             priority
           />
