@@ -1,0 +1,58 @@
+{
+  "slug": "sinergia-life-tenis",
+  "name": "Sinergia Life Tenis",
+  "tagline": "Plataforma de gestión de torneos de tenis para Club Sinergia Life",
+  "description": "Plataforma web para gestionar torneos de tenis en Club Sinergia Life. Permite a los administradores crear torneos con múltiples categorías, importar jugadores por CSV, programar partidos con cancha y horario, y publicar rankings y fixtures. Los jugadores reciben invitaciones por email, registran resultados y consultan su historial desde perfiles públicos.",
+  "highlights": [
+    "Gestión completa de torneos con categorías (A, B, C) y generación round-robin",
+    "Autenticación OTP por email — sin contraseñas",
+    "Importación masiva de jugadores vía CSV",
+    "Rankings dinámicos y fixture público compartible por WhatsApp",
+    "Perfiles públicos de jugadores con historial de partidos",
+    "Subida de fotos de perfil con integración Instagram"
+  ],
+  "type": "web-app",
+  "tags": [
+    "sports",
+    "tournament-management",
+    "tennis",
+    "club",
+    "ranking"
+  ],
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Resend",
+    "React Email",
+    "Vercel Blob",
+    "Zod",
+    "React Hook Form"
+  ],
+  "startDate": "2026-03",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 12791
+    },
+    "totalLines": 12791
+  },
+  "url": "https://life-tenis.raphauy.dev",
+  "repoUrl": null,
+  "screenshots": [
+    "01-ranking.png",
+    "02-fixture.png",
+    "03-partido-detalle.png",
+    "04-panel-jugador.png",
+    "05-admin-torneos.png",
+    "06-admin-partidos.png"
+  ],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code (CLAUDE.md, .claude/ directory, and agent skills configured)",
+  "repoPrivate": true
+}
