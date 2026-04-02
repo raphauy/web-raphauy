@@ -1,15 +1,15 @@
 {
   "slug": "sinergia-life-tenis",
   "name": "Sinergia Life Tenis",
-  "tagline": "Plataforma de gestión de torneos de tenis para Club Sinergia Life",
-  "description": "Plataforma web para gestionar torneos de tenis en Club Sinergia Life. Permite a los administradores crear torneos con múltiples categorías, importar jugadores por CSV, programar partidos con cancha y horario, y publicar rankings y fixtures. Los jugadores reciben invitaciones por email, registran resultados y consultan su historial desde perfiles públicos.",
+  "tagline": "Tennis tournament management platform for Club Sinergia Life",
+  "description": "A web platform for managing tennis tournaments at Club Sinergia Life. Admins can create tournaments with multiple categories, import players via CSV, schedule matches with court and time assignments, and publish rankings and fixtures. Players receive email invitations, submit match results, and check their history from public profiles.",
   "highlights": [
-    "Gestión completa de torneos con categorías (A, B, C) y generación round-robin",
-    "Autenticación OTP por email — sin contraseñas",
-    "Importación masiva de jugadores vía CSV",
-    "Rankings dinámicos y fixture público compartible por WhatsApp",
-    "Perfiles públicos de jugadores con historial de partidos",
-    "Subida de fotos de perfil con integración Instagram"
+    "Full tournament management with categories (A, B, C) and round-robin generation",
+    "OTP email authentication — no passwords required",
+    "Bulk player import via CSV",
+    "Dynamic rankings and public fixture shareable via WhatsApp",
+    "Public player profiles with match history",
+    "Profile photo uploads with Instagram integration"
   ],
   "type": "web-app",
   "tags": [
@@ -25,6 +25,7 @@
     "React",
     "Prisma",
     "PostgreSQL",
+    "Neon",
     "NextAuth",
     "Tailwind CSS",
     "shadcn/ui",
