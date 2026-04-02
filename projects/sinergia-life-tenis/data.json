@@ -44,7 +44,7 @@
     "totalLines": 12791
   },
   "url": "https://life-tenis.raphauy.dev",
-  "repoUrl": null,
+  "repoUrl": "https://github.com/raphauy/sinergia-life-tenis",
   "screenshots": [
     "01-ranking.png",
     "02-fixture.png",
@@ -55,5 +55,5 @@
   ],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code (CLAUDE.md, .claude/ directory, and agent skills configured)",
-  "repoPrivate": true
+  "repoPrivate": false
 }
