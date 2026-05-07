@@ -58,10 +58,10 @@
   "url": "https://marketing.onmindcrm.com",
   "repoUrl": "https://github.com/raphauy/onmind-marketing",
   "screenshots": [
-    "01-dashboard.png",
-    "02-piezas.png",
-    "03-pieza-detalle.png",
-    "04-landing.png"
+    "01-landing.png",
+    "02-dashboard.png",
+    "03-piezas.png",
+    "04-pieza-detalle.png"
   ],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code (CLAUDE.md, .claude/ directory with skills, and AGENTS.md configured)",
