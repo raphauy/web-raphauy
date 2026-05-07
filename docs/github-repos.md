@@ -4,6 +4,7 @@
 
 | # | Portfolio | Repo | Lenguaje | Visibilidad | Último push |
 |--:|:---------:|------|----------|-------------|-------------|
+| 0 | x | onmind-marketing | TypeScript | public | 2026-05-05 |
 | 1 | x | bond | TypeScript | private | 2026-03-20 |
 | 2 | x | tinta-payload | TypeScript | public | 2026-03-19 |
 | 3 | x | onmind | TypeScript | private | 2026-03-19 |

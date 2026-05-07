@@ -1,0 +1,69 @@
+{
+  "slug": "onmind-marketing",
+  "name": "OnMind Marketing",
+  "tagline": "Marketing site and content studio for OnMind CRM",
+  "description": "Marketing site and internal content studio for OnMind CRM, a WhatsApp communications SaaS targeting real estate businesses. The platform combines public landing pages with an internal dashboard to plan strategy, design social pieces, and produce branded image and video content. Pieces are rendered in isolated Vercel Sandbox microVMs using Remotion templates, then scheduled and published to Instagram from a single workflow.",
+  "highlights": [
+    "Multiple landing page variants (minimal, bold, editorial, creative) with shared brand system",
+    "Internal dashboard for strategy, brand assets, templates, pieces, and scheduling",
+    "Image and video piece generation via Remotion rendered in Vercel Sandbox",
+    "Instagram publishing pipeline with captions, scheduling, and post history",
+    "Passwordless OTP authentication with Resend + React Email",
+    "Asset storage on Vercel Blob and OG image generation with Satori"
+  ],
+  "type": "web-app",
+  "tags": [
+    "marketing",
+    "saas",
+    "content-generation",
+    "video-rendering",
+    "social-media",
+    "instagram",
+    "real-estate"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Radix UI",
+    "Framer Motion",
+    "Prisma",
+    "PostgreSQL",
+    "Neon",
+    "NextAuth",
+    "Remotion",
+    "Vercel Sandbox",
+    "Vercel Blob",
+    "Resend",
+    "React Email",
+    "Satori",
+    "Instagram Graph API",
+    "Zod"
+  ],
+  "startDate": "2026-04-08",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 11918,
+      "HTML": 4613,
+      "JavaScript": 3613,
+      "CSS": 162,
+      "SQL": 99,
+      "SVG": 215
+    },
+    "totalLines": 20620
+  },
+  "url": "https://marketing.onmindcrm.com",
+  "repoUrl": "https://github.com/raphauy/onmind-marketing",
+  "screenshots": [
+    "01-dashboard.png",
+    "02-piezas.png",
+    "03-pieza-detalle.png",
+    "04-landing.png"
+  ],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code (CLAUDE.md, .claude/ directory with skills, and AGENTS.md configured)",
+  "repoPrivate": false
+}
