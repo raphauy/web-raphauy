@@ -43,6 +43,10 @@ function formatLines(n: number): string {
   return n.toString()
 }
 
+function formatLinesFull(n: number): string {
+  return n.toLocaleString("de-DE")
+}
+
 export function TimelineCard({
   project,
   index,
@@ -71,6 +75,20 @@ export function TimelineCard({
 
       {/* Timeline dot (mobile) */}
       <div className="absolute left-0 top-6 z-10 h-3 w-3 -translate-x-1/2 rounded-full border-2 border-accent bg-background md:hidden" />
+
+      {/* Lines of code on opposite side (desktop only) */}
+      <div
+        className={`pointer-events-none absolute top-1 hidden select-none px-6 md:flex ${
+          isLeft
+            ? "left-1/2 right-0 justify-start"
+            : "left-0 right-1/2 justify-end"
+        }`}
+      >
+        <span className="font-serif text-5xl font-bold italic tracking-tight text-muted-foreground/30 lg:text-6xl">
+          {formatLinesFull(project.stats.totalLines)}{" "}
+          <span className="text-3xl lg:text-4xl">loc</span>
+        </span>
+      </div>
 
       <Link
         href={`/projects/${project.slug}`}
