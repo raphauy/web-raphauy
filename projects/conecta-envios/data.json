@@ -1,0 +1,62 @@
+{
+  "slug": "conecta-envios",
+  "name": "Conecta Envíos",
+  "tagline": "Multi-tenant platform connecting wholesale providers with resellers",
+  "description": "Conecta Envíos is a multi-tenant SaaS that connects wholesale providers with resellers. Providers manage their product catalog and team, resellers see only the catalogs assigned to them, and the platform automates shipping label generation and order tracking. Includes per-tenant theming, Instagram-based provider onboarding, CSV catalog imports, and SOAP integration with the Ramasil courier.",
+  "highlights": [
+    "Multi-tenant architecture with three roles: admin, provider, reseller",
+    "Passwordless OTP authentication with email invitations",
+    "Provider onboarding from Instagram handle (auto-fills name, description, logo)",
+    "Product catalog with manual and CSV import",
+    "Shipping label generation and order management workflow",
+    "Per-user theme system with multiple visual presets",
+    "SOAP integration with Ramasil courier"
+  ],
+  "type": "web-app",
+  "tags": [
+    "saas",
+    "multi-tenant",
+    "logistics",
+    "shipping",
+    "marketplace",
+    "b2b",
+    "in-development"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Radix UI",
+    "Prisma",
+    "PostgreSQL",
+    "Neon",
+    "NextAuth",
+    "Vercel Blob",
+    "Resend",
+    "React Email",
+    "React Hook Form",
+    "Zod",
+    "Sharp"
+  ],
+  "startDate": "2026-04-29",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 14847,
+      "CSS": 514,
+      "SQL": 155,
+      "JSON": 144
+    },
+    "totalLines": 15660
+  },
+  "url": "https://conecta-envios.raphauy.dev",
+  "repoUrl": null,
+  "screenshots": [
+    "01-cover.png"
+  ],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code (CLAUDE.md, AGENTS.md, and .claude/ directory with skills configured)",
+  "repoPrivate": true
+}
