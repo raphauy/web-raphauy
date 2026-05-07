@@ -41,7 +41,7 @@ export function Header() {
               </Link>
               {" "}and{" "}
               <Link
-                href="https://www.onmindcrm.com"
+                href="https://onmindcrm.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary underline-offset-4 hover:underline"
