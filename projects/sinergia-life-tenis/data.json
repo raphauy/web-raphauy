@@ -51,7 +51,9 @@
     "03-partido-detalle.png",
     "04-panel-jugador.png",
     "05-admin-torneos.png",
-    "06-admin-partidos.png"
+    "06-admin-partidos.png",
+    "07-eliminatoria-mobile.png",
+    "08-calendario-mobile.png"
   ],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code (CLAUDE.md, .claude/ directory, and agent skills configured)",
