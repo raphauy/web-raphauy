@@ -1,0 +1,56 @@
+{
+  "slug": "tenis-tracker",
+  "name": "Tenis Tracker",
+  "tagline": "Personal match tracker for tennis tournament players",
+  "description": "A web app for tennis players to log their journey through tournaments. Players record each match by round, opponent and set-by-set score — including tie-breaks, walkovers, retirements and byes — and the app derives their result in each tournament (champion, finalist, or eliminated in a given round). Public player profiles showcase a personal match history, with passwordless login via email OTP or a reverse WhatsApp magic link.",
+  "highlights": [
+    "Match logging by round with set-by-set scores, tie-breaks, walkovers, retirements and byes",
+    "Automatic tournament result derivation (champion, finalist, eliminated in a given round)",
+    "Passwordless auth: email OTP plus reverse WhatsApp magic link via Kapso WhatsApp Cloud API",
+    "Shared curated catalog of tournaments, categories and venues with superadmin approval and duplicate merging",
+    "Public player profiles at /{slug} with privacy controls and avatar uploads"
+  ],
+  "type": "web-app",
+  "tags": [
+    "sports",
+    "tennis",
+    "tournament-tracking",
+    "match-tracking",
+    "multi-tenant",
+    "saas"
+  ],
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "Neon",
+    "NextAuth",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "WhatsApp",
+    "Resend",
+    "React Email",
+    "Vercel Blob",
+    "Zod"
+  ],
+  "startDate": "2026-05-24",
+  "endDate": null,
+  "stats": {
+    "languages": {
+      "TypeScript": 9914
+    },
+    "totalLines": 9914
+  },
+  "url": "https://tenis-tracker.raphauy.dev",
+  "repoUrl": "https://github.com/raphauy/tenis-tracker",
+  "screenshots": [
+    "01-landing.png",
+    "02-torneos.png",
+    "03-estadisticas.png"
+  ],
+  "builtWithAI": true,
+  "aiDetails": "Built with Claude Code (CLAUDE.md, .claude/ directory, and .agents/ skills configured)",
+  "repoPrivate": false
+}
