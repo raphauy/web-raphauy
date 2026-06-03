@@ -1,15 +1,15 @@
 {
   "slug": "sinergia-life-tenis",
-  "name": "Sinergia Life Tenis",
-  "tagline": "Tennis tournament management platform for Club Sinergia Life",
-  "description": "A web platform for managing tennis tournaments at Club Sinergia Life. Admins can create tournaments with multiple categories, import players via CSV, schedule matches with court and time assignments, and publish rankings and fixtures. Players receive email invitations, submit match results, and check their history from public profiles.",
+  "name": "Life Tenis",
+  "tagline": "Tennis platform for Life Montevideo: tournaments and a permanent ranking ladder",
+  "description": "A web platform for the tennis community at Life Montevideo. Its centerpiece is La Escalera, a permanent, always-live club ranking: every player holds a single ranked position and climbs by challenging others — win or lose, points shift and standings update, with monthly activity commitments, a player of the week, and notifications. Alongside it, admins run tournaments with multiple categories, import players via CSV, schedule matches, and publish rankings and fixtures, while players sign in with email OTP and keep public profiles with their match history.",
   "highlights": [
-    "Full tournament management with categories (A, B, C) and round-robin generation",
-    "OTP email authentication — no passwords required",
-    "Bulk player import via CSV",
-    "Dynamic rankings and public fixture shareable via WhatsApp",
-    "Public player profiles with match history",
-    "Profile photo uploads with Instagram integration"
+    "La Escalera: a permanent, always-live club ranking — one list, climb by challenging others",
+    "Challenge flow with win/loss point stakes and live position movement",
+    "Monthly activity commitment, player of the week, and evolution tracking",
+    "Tournament management with categories, CSV player import, and round-robin generation",
+    "Passwordless OTP email authentication and public player profiles with match history",
+    "Dynamic rankings and fixtures shareable via WhatsApp"
   ],
   "type": "web-app",
   "tags": [
@@ -39,21 +39,24 @@
   "endDate": null,
   "stats": {
     "languages": {
-      "TypeScript": 12791
+      "TypeScript": 23578
     },
-    "totalLines": 12791
+    "totalLines": 23578
   },
   "url": "https://life-tenis.raphauy.dev",
   "repoUrl": "https://github.com/raphauy/sinergia-life-tenis",
   "screenshots": [
-    "01-ranking.png",
-    "02-fixture.png",
-    "03-partido-detalle.png",
-    "04-panel-jugador.png",
-    "05-admin-torneos.png",
-    "06-admin-partidos.png",
-    "07-eliminatoria-mobile.png",
-    "08-calendario-mobile.png"
+    "01-la-escalera.png",
+    "02-la-escalera-como-funciona.png",
+    "03-la-escalera-reto.png",
+    "04-ranking.png",
+    "05-fixture.png",
+    "06-partido-detalle.png",
+    "07-panel-jugador.png",
+    "08-admin-torneos.png",
+    "09-admin-partidos.png",
+    "10-eliminatoria-mobile.png",
+    "11-calendario-mobile.png"
   ],
   "builtWithAI": true,
   "aiDetails": "Built with Claude Code (CLAUDE.md, .claude/ directory, and agent skills configured)",
