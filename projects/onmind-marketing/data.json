@@ -46,14 +46,14 @@
   "endDate": null,
   "stats": {
     "languages": {
-      "TypeScript": 11918,
-      "HTML": 4613,
-      "JavaScript": 3613,
-      "CSS": 162,
+      "TypeScript": 28591,
+      "HTML": 1582,
+      "JavaScript": 2155,
+      "CSS": 189,
       "SQL": 99,
       "SVG": 215
     },
-    "totalLines": 20620
+    "totalLines": 32831
   },
   "url": "https://marketing.onmindcrm.com",
   "repoUrl": "https://github.com/raphauy/onmind-marketing",

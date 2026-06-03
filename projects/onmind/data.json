@@ -43,13 +43,13 @@
   "endDate": null,
   "stats": {
     "languages": {
-      "TypeScript": 86990,
-      "SQL": 948,
-      "JSON": 236,
+      "TypeScript": 104571,
+      "SQL": 1195,
+      "JSON": 203,
       "CSS": 214,
       "Python": 64
     },
-    "totalLines": 88452
+    "totalLines": 106247
   },
   "url": "https://www.onmindcrm.com",
   "repoUrl": null,

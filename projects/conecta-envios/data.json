@@ -44,12 +44,12 @@
   "endDate": null,
   "stats": {
     "languages": {
-      "TypeScript": 14847,
+      "TypeScript": 26181,
       "CSS": 514,
-      "SQL": 155,
+      "SQL": 227,
       "JSON": 144
     },
-    "totalLines": 15660
+    "totalLines": 27066
   },
   "url": "https://conecta-envios.raphauy.dev",
   "repoUrl": null,

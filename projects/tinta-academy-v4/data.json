@@ -43,11 +43,11 @@
   "endDate": null,
   "stats": {
     "languages": {
-      "TypeScript": 66684,
-      "SQL": 422,
+      "TypeScript": 78805,
+      "SQL": 571,
       "CSS": 282
     },
-    "totalLines": 67388
+    "totalLines": 79658
   },
   "url": "https://academy.tinta.wine",
   "repoUrl": "https://github.com/raphauy/tinta-academy-v4",
